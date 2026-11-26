@@ -1,0 +1,488 @@
+{
+ "name": "fp_arms_crew",
+ "convention": "eye at the origin looking down -Z, +Y up, +X right; metres; compose/check at 70 deg vertical FOV, 16:9",
+ "nodes": [
+  "anchor_grip_L",
+  "anchor_grip_R",
+  "anchor_helmet",
+  "anchor_tool_R",
+  "arm_L",
+  "arm_R",
+  "forearm_L",
+  "forearm_R",
+  "forearm_twist_L",
+  "forearm_twist_R",
+  "fp_arms_crew",
+  "fp_root",
+  "grip_L",
+  "grip_R",
+  "hand_L",
+  "hand_R",
+  "index_01_L",
+  "index_01_R",
+  "index_02_L",
+  "index_02_R",
+  "index_03_L",
+  "index_03_R",
+  "middle_01_L",
+  "middle_01_R",
+  "middle_02_L",
+  "middle_02_R",
+  "middle_03_L",
+  "middle_03_R",
+  "pinky_01_L",
+  "pinky_01_R",
+  "pinky_02_L",
+  "pinky_02_R",
+  "pinky_03_L",
+  "pinky_03_R",
+  "prop_helmet",
+  "ring_01_L",
+  "ring_01_R",
+  "ring_02_L",
+  "ring_02_R",
+  "ring_03_L",
+  "ring_03_R",
+  "thumb_01_L",
+  "thumb_01_R",
+  "thumb_02_L",
+  "thumb_02_R",
+  "thumb_03_L",
+  "thumb_03_R",
+  "upper_arm_L",
+  "upper_arm_R"
+ ],
+ "meshes": [
+  "arm_L",
+  "arm_R"
+ ],
+ "anchors": {
+  "anchor_grip_L": [
+   -0.15636,
+   -0.21386,
+   -0.55987
+  ],
+  "anchor_grip_R": [
+   0.15636,
+   -0.21386,
+   -0.55987
+  ],
+  "anchor_helmet": [
+   0.0,
+   -0.14,
+   0.08
+  ],
+  "anchor_tool_R": [
+   0.15229,
+   -0.21423,
+   -0.55204
+  ]
+ },
+ "anchor_frames": {
+  "anchor_grip_L": {
+   "parent_bone": "grip_L",
+   "x": [
+    0.0214,
+    0.08604,
+    0.99606
+   ],
+   "y": [
+    0.99296,
+    0.11427,
+    -0.0312
+   ],
+   "z": [
+    -0.1165,
+    0.98972,
+    -0.08299
+   ]
+  },
+  "anchor_grip_R": {
+   "parent_bone": "grip_R",
+   "x": [
+    0.0214,
+    -0.08604,
+    -0.99606
+   ],
+   "y": [
+    -0.99296,
+    0.11427,
+    -0.0312
+   ],
+   "z": [
+    0.1165,
+    0.98972,
+    -0.08299
+   ]
+  },
+  "anchor_helmet": {
+   "parent_bone": "prop_helmet",
+   "x": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "y": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "z": [
+    0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  "anchor_tool_R": {
+   "parent_bone": "hand_R",
+   "x": [
+    -0.99296,
+    0.11427,
+    -0.0312
+   ],
+   "y": [
+    0.11044,
+    0.98833,
+    0.10489
+   ],
+   "z": [
+    0.04282,
+    0.1007,
+    -0.99399
+   ]
+  }
+ },
+ "clips": [
+  {
+   "name": "idle",
+   "duration": 4.0,
+   "loop": true,
+   "pose": false,
+   "frames": 120,
+   "authored_duration": 4.0,
+   "note": "hands mostly out of frame, a slight breathing rise",
+   "refs": {}
+  },
+  {
+   "name": "walk",
+   "duration": 1.0,
+   "loop": true,
+   "pose": false,
+   "frames": 30,
+   "authored_duration": 1.0,
+   "note": "arm swing just entering the frame bottom, 1.0 s period",
+   "refs": {}
+  },
+  {
+   "name": "press",
+   "duration": 0.6,
+   "loop": false,
+   "pose": false,
+   "frames": 18,
+   "authored_duration": 0.6,
+   "note": "right index presses a button ahead (contact 0.30 s)",
+   "refs": {
+    "button": [
+     0.085,
+     -0.075,
+     -0.5
+    ],
+    "contact_s": 0.3
+   }
+  },
+  {
+   "name": "pickup",
+   "duration": 0.9,
+   "loop": false,
+   "pose": false,
+   "frames": 27,
+   "authored_duration": 0.9,
+   "note": "right hand reaches, closes (0.36 s), brings the object up to the hold pose",
+   "refs": {
+    "surface_object_centre": [
+     0.15,
+     -0.3,
+     -0.39
+    ],
+    "hold_object_centre": [
+     0.055,
+     -0.1,
+     -0.3
+    ],
+    "grasp_s": 0.36
+   }
+  },
+  {
+   "name": "hold",
+   "duration": 4.0,
+   "loop": true,
+   "pose": false,
+   "frames": 120,
+   "authored_duration": 4.0,
+   "note": "holding a small object 30 cm from the eye",
+   "refs": {
+    "object_centre": [
+     0.055,
+     -0.1,
+     -0.3
+    ],
+    "object_up": [
+     -0.0512,
+     0.9729,
+     0.2253
+    ],
+    "object_face": [
+     -0.2892,
+     0.4048,
+     0.8675
+    ]
+   }
+  },
+  {
+   "name": "inspect_turn",
+   "duration": 1.5,
+   "loop": false,
+   "pose": false,
+   "frames": 45,
+   "authored_duration": 1.5,
+   "note": "turns the held object left and right in the fingers and tips it to look along it; starts/ends in hold",
+   "refs": {
+    "object_centre": [
+     0.055,
+     -0.1,
+     -0.3
+    ],
+    "turn_axis": [
+     -0.0512,
+     0.9729,
+     0.2253
+    ],
+    "turn_deg": [
+     54,
+     -36
+    ]
+   }
+  },
+  {
+   "name": "put_down",
+   "duration": 0.7,
+   "loop": false,
+   "pose": false,
+   "frames": 21,
+   "authored_duration": 0.7,
+   "note": "from hold: sets the object down (released 0.44 s) and withdraws",
+   "refs": {
+    "surface_object_centre": [
+     0.15,
+     -0.3,
+     -0.39
+    ],
+    "hold_object_centre": [
+     0.055,
+     -0.1,
+     -0.3
+    ],
+    "release_s": 0.44
+   }
+  },
+  {
+   "name": "touch_float",
+   "duration": 0.8,
+   "loop": false,
+   "pose": false,
+   "frames": 24,
+   "authored_duration": 0.8,
+   "note": "index finger hesitantly reaches out and taps (contact 0.60 s), then flinches back",
+   "refs": {
+    "object_surface": [
+     0.045,
+     -0.035,
+     -0.515
+    ],
+    "contact_s": 0.6
+   }
+  },
+  {
+   "name": "wheel_turn",
+   "duration": 1.4,
+   "loop": true,
+   "pose": false,
+   "frames": 42,
+   "authored_duration": 1.4,
+   "note": "both hands turning a hatch wheel, alternating strokes; wheel turns +116 deg (CCW seen by Karl) per loop",
+   "refs": {
+    "centre": [
+     0.0,
+     -0.125,
+     -0.47
+    ],
+    "axis_toward_viewer": [
+     0.0,
+     0.1961,
+     0.9806
+    ],
+    "rim_radius": 0.155,
+    "deg_per_loop": 116
+   }
+  },
+  {
+   "name": "hands_look",
+   "duration": 3.0,
+   "loop": false,
+   "pose": false,
+   "frames": 90,
+   "authored_duration": 3.0,
+   "note": "raises both bare hands into view, turns them over, flexes the fingers; ends near idle",
+   "refs": {}
+  },
+  {
+   "name": "helmet_hold",
+   "duration": 4.0,
+   "loop": true,
+   "pose": false,
+   "frames": 120,
+   "authored_duration": 4.0,
+   "note": "both hands hold the helmet at chest height, visor facing the eye, slight tired sway",
+   "refs": {
+    "neck_ring_centre": [
+     0.0,
+     -0.215,
+     -0.405
+    ],
+    "helmet_front": [
+     0.0,
+     0.1701,
+     0.9854
+    ],
+    "helmet_up": [
+     0.0,
+     0.9854,
+     -0.1701
+    ]
+   }
+  },
+  {
+   "name": "helmet_lift",
+   "duration": 2.2,
+   "loop": false,
+   "pose": false,
+   "frames": 66,
+   "authored_duration": 2.2,
+   "note": "hands to the neck ring, twist 20 deg, lift up past the camera, down into helmet_hold",
+   "refs": {
+    "worn_neck_ring_centre": [
+     0.0,
+     -0.14,
+     0.08
+    ],
+    "grip_s": 0.44,
+    "twist_s": [
+     0.54,
+     0.84
+    ],
+    "lift_s": [
+     0.86,
+     1.25
+    ],
+    "off_screen_s": [
+     1.2,
+     1.6
+    ],
+    "settles_s": 2.2
+   }
+  },
+  {
+   "name": "glove_off_L",
+   "duration": 1.6,
+   "loop": false,
+   "pose": false,
+   "frames": 48,
+   "authored_duration": 1.6,
+   "note": "bare left hand inside the suit glove during fp_arms_suit glove_twist_L; flexes once the glove is off (0.92 s)",
+   "refs": {}
+  }
+ ],
+ "bounds": {
+  "min": [
+   -0.2377,
+   -0.2822,
+   -0.6959
+  ],
+  "max": [
+   0.2377,
+   -0.1088,
+   -0.0629
+  ]
+ },
+ "triangles": 39124,
+ "triangles_per_arm": 19562,
+ "materials": [
+  "fp_arm_crew"
+ ],
+ "skeleton": {
+  "root": "fp_root",
+  "sides": [
+   "L",
+   "R"
+  ],
+  "chain": [
+   "upper_arm",
+   "forearm",
+   "hand"
+  ],
+  "extra": [
+   "forearm_twist",
+   "grip"
+  ],
+  "fingers": [
+   "thumb_01",
+   "thumb_02",
+   "thumb_03",
+   "index_01",
+   "index_02",
+   "index_03",
+   "middle_01",
+   "middle_02",
+   "middle_03",
+   "ring_01",
+   "ring_02",
+   "ring_03",
+   "pinky_01",
+   "pinky_02",
+   "pinky_03"
+  ],
+  "shoulder_R": [
+   0.19,
+   -0.215,
+   0.07
+  ],
+  "elbow_R": [
+   0.19,
+   -0.215,
+   -0.23
+  ],
+  "wrist_R": [
+   0.19,
+   -0.215,
+   -0.495
+  ],
+  "upper_arm_length": 0.3,
+  "forearm_length": 0.265,
+  "rest_pose": "arms straight ahead (-Z), thumbs up, palms facing each other",
+  "notes": "forearm_twist carries the twist component of the hand rotation (sleeve, cuff and wrist ring follow it); all clips key it. If the game poses hand_* itself it must copy the twist about the forearm axis to forearm_twist_*. upper_arm_* may carry small translation keys."
+ },
+ "fps": 30,
+ "textures": {
+  "base_color": 4096,
+  "normal": 4096,
+  "orm": 2048,
+  "format": "webp (EXT_texture_webp)"
+ },
+ "usage": {
+  "blend": "pickup -> hold -> inspect_turn -> hold -> put_down chain without a pop; press / touch_float / hands_look start and end near idle; helmet_lift ends in helmet_hold. Cross-fade 0.12-0.2 s elsewhere.",
+  "anchor_grip": "anchor_grip_R rides on bone grip_R. In pickup/hold/inspect_turn/put_down it sits at the centre of the held small object (between thumb and fingers): +Z along the fingers (object up), +Y out of the palm (the face of the object that looks at Karl in hold). At rest it sits in the palm.",
+  "anchor_helmet": "anchor_helmet (child of bone prop_helmet, a child of fp_root): origin = centre of the neck ring, +Y = helmet up, +Z = helmet front. Parent suit_helmet.glb to it with identity transform. At rest and at the start of helmet_lift the helmet is worn (front = view forward); in helmet_hold the visor faces the eye. Outside helmet_lift / helmet_hold hide the helmet.",
+  "helmet_lift": "0-0.42 s hands rise to the neck ring, 0.50-0.78 s twist 20 deg, 0.84-1.25 s lift up and forward (hands leave the top of the frame at ~1.2 s, turn the helmet round off-screen), 1.55-2.2 s down into the helmet_hold pose.",
+  "glove_off_L": "Companion to fp_arms_suit glove_twist_L: the bare left hand follows the same wrist path inside the glove and flexes once the glove is off (show arm_L only, hide arm_R)."
+ }
+}

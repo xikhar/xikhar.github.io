@@ -1,0 +1,1289 @@
+{
+ "vo": {
+  "p1_001": {
+   "file": "vo/p1_001.mp3",
+   "speaker": "IMANI",
+   "text": "EV1, Control. Comm check on the EVA loop.",
+   "duration": 3.64
+  },
+  "p1_002": {
+   "file": "vo/p1_002.mp3",
+   "speaker": "KARL",
+   "text": "Control, EV1. Five by five. And good morning to you too, Imani.",
+   "duration": 5.01
+  },
+  "p1_003": {
+   "file": "vo/p1_003.mp3",
+   "speaker": "IMANI",
+   "text": "It's four in the afternoon, Karl.",
+   "duration": 2.45
+  },
+  "p1_004": {
+   "file": "vo/p1_004.mp3",
+   "speaker": "KARL",
+   "text": "Not out here. Out here it's been morning six times since breakfast.",
+   "duration": 4.505
+  },
+  "p1_005": {
+   "file": "vo/p1_005.mp3",
+   "speaker": "BRAM",
+   "text": "Tether check, please. Before you two start a podcast.",
+   "duration": 3.655
+  },
+  "p1_006": {
+   "file": "vo/p1_006.mp3",
+   "speaker": "KARL",
+   "text": "Good lock on the anchor, reel's running free. Happy, Bram?",
+   "duration": 4.84
+  },
+  "p1_007": {
+   "file": "vo/p1_007.mp3",
+   "speaker": "BRAM",
+   "text": "Ecstatic. Boots?",
+   "duration": 2.02
+  },
+  "p1_008": {
+   "file": "vo/p1_008.mp3",
+   "speaker": "KARL",
+   "text": "Left... right. Green and green.",
+   "duration": 3.58
+  },
+  "p1_009": {
+   "file": "vo/p1_009.mp3",
+   "speaker": "IMANI",
+   "text": "Okay. Relay unit C-seven is about seven metres ahead of you, on the walk-plate. Follow the orange line.",
+   "duration": 7.165
+  },
+  "p1_010": {
+   "file": "vo/p1_010.mp3",
+   "speaker": "DEV",
+   "text": "Karl, hey, it's Dev. While you're strolling: do not touch the horn. I'm still recording off it.",
+   "duration": 5.695
+  },
+  "p1_011": {
+   "file": "vo/p1_011.mp3",
+   "speaker": "KARL",
+   "text": "Recording what? I thought the thing was dead.",
+   "duration": 3.025
+  },
+  "p1_012": {
+   "file": "vo/p1_012.mp3",
+   "speaker": "DEV",
+   "text": "That's the thing, it's not dead, it's... chatty. It's picking something up on a band nobody's assigned. Has been for two days.",
+   "duration": 7.305
+  },
+  "p1_013": {
+   "file": "vo/p1_013.mp3",
+   "speaker": "BRAM",
+   "text": "It's picking up Dev's microwave lunch, is what it's picking up.",
+   "duration": 3.91
+  },
+  "p1_014": {
+   "file": "vo/p1_014.mp3",
+   "speaker": "DEV",
+   "text": "My lunch does not have a carrier wave, Bram.",
+   "duration": 2.935
+  },
+  "p1_015": {
+   "file": "vo/p1_015.mp3",
+   "speaker": "KARL",
+   "text": "Okay, I'm at the unit. Thermal shroud's singed along the seam. That's new.",
+   "duration": 5.605
+  },
+  "p1_016": {
+   "file": "vo/p1_016.mp3",
+   "speaker": "IMANI",
+   "text": "Copy, singed. Open her up, let's have a look.",
+   "duration": 3.77
+  },
+  "p1_017": {
+   "file": "vo/p1_017.mp3",
+   "speaker": "BRAM",
+   "text": "Quarter turn each, they're captive. You round one off, I'm sending you the bill.",
+   "duration": 5.27
+  },
+  "p1_018": {
+   "file": "vo/p1_018.mp3",
+   "speaker": "KARL",
+   "text": "You still owe me from poker night.",
+   "duration": 2.435
+  },
+  "p1_019": {
+   "file": "vo/p1_019.mp3",
+   "speaker": "BRAM",
+   "text": "That was a loan.",
+   "duration": 1.275
+  },
+  "p1_020": {
+   "file": "vo/p1_020.mp3",
+   "speaker": "KARL",
+   "text": "Panel's open. ...Huh.",
+   "duration": 2.805
+  },
+  "p1_021": {
+   "file": "vo/p1_021.mp3",
+   "speaker": "IMANI",
+   "text": "Huh good, or huh bad?",
+   "duration": 3.22
+  },
+  "p1_022": {
+   "file": "vo/p1_022.mp3",
+   "speaker": "KARL",
+   "text": "Three of the four feed lines are out of their sockets. Not sheared. Unplugged. Latches are open.",
+   "duration": 7.685
+  },
+  "p1_023": {
+   "file": "vo/p1_023.mp3",
+   "speaker": "BRAM",
+   "text": "Nobody's been out there in a month.",
+   "duration": 2.8
+  },
+  "p1_024": {
+   "file": "vo/p1_024.mp3",
+   "speaker": "KARL",
+   "text": "Well. Somebody didn't tell the connectors.",
+   "duration": 3.07
+  },
+  "p1_025": {
+   "file": "vo/p1_025.mp3",
+   "speaker": "DEV",
+   "text": "Before you fix it, can you patch your suit scanner in? I want the raw signal, without our filters on it.",
+   "duration": 5.415
+  },
+  "p1_026": {
+   "file": "vo/p1_026.mp3",
+   "speaker": "DEV",
+   "text": "There. There! You hear that? That is not noise. Noise doesn't keep time.",
+   "duration": 4.61
+  },
+  "p1_027": {
+   "file": "vo/p1_027.mp3",
+   "speaker": "KARL",
+   "text": "Sounds like a busted bearing.",
+   "duration": 2.305
+  },
+  "p1_028": {
+   "file": "vo/p1_028.mp3",
+   "speaker": "DEV",
+   "text": "It's counting, Karl. Groups of pulses, and every group is one shorter than the last.",
+   "duration": 5.995
+  },
+  "p1_029": {
+   "file": "vo/p1_029.mp3",
+   "speaker": "IMANI",
+   "text": "Counting down to what?",
+   "duration": 1.81
+  },
+  "p1_030": {
+   "file": "vo/p1_030.mp3",
+   "speaker": "DEV",
+   "text": "I mean... probably nothing. Probably a pulsar and a bad cable. That's why he's out there.",
+   "duration": 6.685
+  },
+  "p1_031": {
+   "file": "vo/p1_031.mp3",
+   "speaker": "IMANI",
+   "text": "Then let's get it fixed. Karl, reseat the lines. Bram's got the map.",
+   "duration": 4.28
+  },
+  "p1_032": {
+   "file": "vo/p1_032.mp3",
+   "speaker": "BRAM",
+   "text": "Right. Colours on the collars, numbers on the sockets. Blue goes to J-one. Amber, J-three. Green, J-four. White stays where it is. Don't touch white.",
+   "duration": 12.255
+  },
+  "p1_033": {
+   "file": "vo/p1_033.mp3",
+   "speaker": "KARL",
+   "text": "Blue's in. Good lock.",
+   "duration": 2.655
+  },
+  "p1_034": {
+   "file": "vo/p1_034.mp3",
+   "speaker": "DEV",
+   "text": "Signal's cleaning up. Wow. Okay, it's getting really loud.",
+   "duration": 4.52
+  },
+  "p1_035": {
+   "file": "vo/p1_035.mp3",
+   "speaker": "IMANI",
+   "text": "Dev, is that a problem?",
+   "duration": 2.16
+  },
+  "p1_036": {
+   "file": "vo/p1_036.mp3",
+   "speaker": "DEV",
+   "text": "No, no, it's just... very there.",
+   "duration": 3.645
+  },
+  "p1_037": {
+   "file": "vo/p1_037.mp3",
+   "speaker": "KARL",
+   "text": "Last one. Then somebody owes me a coffee.",
+   "duration": 3.42
+  },
+  "p1_038": {
+   "file": "vo/p1_038.mp3",
+   "speaker": "IMANI",
+   "text": "Real coffee. I'll put the kettle on.",
+   "duration": 2.76
+  },
+  "p1_w01": {
+   "file": "vo/p1_w01.mp3",
+   "speaker": "BRAM",
+   "text": "No, no, that's not it. Read the collar.",
+   "duration": 3.195
+  },
+  "p1_w02": {
+   "file": "vo/p1_w02.mp3",
+   "speaker": "BRAM",
+   "text": "Other one, Karl. I can see your helmet cam, you know.",
+   "duration": 3.475
+  },
+  "p1_w03": {
+   "file": "vo/p1_w03.mp3",
+   "speaker": "KARL",
+   "text": "Yeah, yeah.",
+   "duration": 1.45
+  },
+  "p1_n01": {
+   "file": "vo/p1_n01.mp3",
+   "speaker": "IMANI",
+   "text": "Karl, you're burning daylight. What's left of it.",
+   "duration": 3.485
+  },
+  "p1_n02": {
+   "file": "vo/p1_n02.mp3",
+   "speaker": "BRAM",
+   "text": "Any time today, Lindqvist.",
+   "duration": 2.285
+  },
+  "p1_n03": {
+   "file": "vo/p1_n03.mp3",
+   "speaker": "DEV",
+   "text": "Take your time. No, really. It's only the weirdest signal of my career.",
+   "duration": 4.285
+  },
+  "p1_x01": {
+   "file": "vo/p1_x01.mp3",
+   "speaker": "KARL",
+   "text": "Boot won't release. No plate there.",
+   "duration": 2.72
+  },
+  "c1_001": {
+   "file": "vo/c1_001.mp3",
+   "speaker": "DEV",
+   "text": "Whoa, okay, I've got full lock, it's... Imani, look at the count, look at the\u2014",
+   "duration": 4.28
+  },
+  "c1_002": {
+   "file": "vo/c1_002.mp3",
+   "speaker": "IMANI",
+   "text": "Karl, we're getting a lot of... say again, you're breaking...",
+   "duration": 4.315
+  },
+  "c1_003": {
+   "file": "vo/c1_003.mp3",
+   "speaker": "KARL",
+   "text": "Control, EV1, you're breaking up. Say again?",
+   "duration": 3.66
+  },
+  "c1_004": {
+   "file": "vo/c1_004.mp3",
+   "speaker": "BRAM",
+   "text": "It's in the hardline, it's in everything, kill the feed! Kill the\u2014",
+   "duration": 3.9
+  },
+  "c1_005": {
+   "file": "vo/c1_005.mp3",
+   "speaker": "KARL",
+   "text": "Imani? Hello? Can you hear me?",
+   "duration": 2.62
+  },
+  "c1_006": {
+   "file": "vo/c1_006.mp3",
+   "speaker": "IMANI",
+   "text": "Karl, get back to the gate. Get back to the\u2014",
+   "duration": 2.505
+  },
+  "c1_007": {
+   "file": "vo/c1_007.mp3",
+   "speaker": "DEV",
+   "text": "...It stopped counting.",
+   "duration": 1.8
+  },
+  "c1_008": {
+   "file": "vo/c1_008.mp3",
+   "speaker": "KARL",
+   "text": "Control, EV1, comm check. ...Anybody? Bram? Hello?",
+   "duration": 6.705
+  },
+  "c1_009": {
+   "file": "vo/c1_009.mp3",
+   "speaker": "KARL",
+   "text": "Control, I'm off the hull! I'm off the hull, I'm\u2014",
+   "duration": 4.555
+  },
+  "c1_010": {
+   "file": "vo/c1_010.mp3",
+   "speaker": "KARL",
+   "text": "Control. EV1. I'm on the tether. ...I think I blacked out.",
+   "duration": 7.24
+  },
+  "c1_011": {
+   "file": "vo/c1_011.mp3",
+   "speaker": "KARL",
+   "text": "Imani? ...Dev? Bram, come on. Somebody say something.",
+   "duration": 4.975
+  },
+  "c1_s01": {
+   "file": "vo/c1_s01.mp3",
+   "speaker": "SUIT",
+   "text": "Caution. Primary comm. No carrier.",
+   "duration": 2.945
+  },
+  "c1_s02": {
+   "file": "vo/c1_s02.mp3",
+   "speaker": "SUIT",
+   "text": "Tether reel. Motor fault. Manual haul required.",
+   "duration": 3.79
+  },
+  "c1_012": {
+   "file": "vo/c1_012.mp3",
+   "speaker": "KARL",
+   "text": "Okay. Okay. Reel's dead. Hand over hand, then. Just like the pool.",
+   "duration": 7.645
+  },
+  "p2_001": {
+   "file": "vo/p2_001.mp3",
+   "speaker": "KARL",
+   "text": "Easy. Small pulls. Don't build speed you can't lose.",
+   "duration": 4.655
+  },
+  "p2_002": {
+   "file": "vo/p2_002.mp3",
+   "speaker": "KARL",
+   "text": "The Ring's stopped. It's not supposed to stop.",
+   "duration": 3.58
+  },
+  "p2_003": {
+   "file": "vo/p2_003.mp3",
+   "speaker": "KARL",
+   "text": "Whoa, whoa. Who is flying this thing?",
+   "duration": 3.465
+  },
+  "p2_004": {
+   "file": "vo/p2_004.mp3",
+   "speaker": "KARL",
+   "text": "Look out, look out\u2014",
+   "duration": 1.415
+  },
+  "p2_005": {
+   "file": "vo/p2_005.mp3",
+   "speaker": "KARL",
+   "text": "Gate Four. I see you. Stay right there.",
+   "duration": 4.445
+  },
+  "p2_006": {
+   "file": "vo/p2_006.mp3",
+   "speaker": "KARL",
+   "text": "There it is again. What is that?",
+   "duration": 2.935
+  },
+  "p2_007": {
+   "file": "vo/p2_007.mp3",
+   "speaker": "KARL",
+   "text": "Come on. Come on, come on, come on.",
+   "duration": 2.75
+  },
+  "p2_008": {
+   "file": "vo/p2_008.mp3",
+   "speaker": "KARL",
+   "text": "Reach. Reach, damn it.",
+   "duration": 3.05
+  },
+  "p2_009": {
+   "file": "vo/p2_009.mp3",
+   "speaker": "KARL",
+   "text": "Got it. Got it. I've got the rail.",
+   "duration": 4.975
+  },
+  "p2_010": {
+   "file": "vo/p2_010.mp3",
+   "speaker": "KARL",
+   "text": "No, no, no\u2014",
+   "duration": 1.27
+  },
+  "p2_011": {
+   "file": "vo/p2_011.mp3",
+   "speaker": "KARL",
+   "text": "Panel's dead. Of course it's dead.",
+   "duration": 3.86
+  },
+  "p2_012": {
+   "file": "vo/p2_012.mp3",
+   "speaker": "KARL",
+   "text": "Bram would have my head for this. ...Bram, feel free to come out here and take it.",
+   "duration": 6.18
+  },
+  "p2_013": {
+   "file": "vo/p2_013.mp3",
+   "speaker": "KARL",
+   "text": "Open. Okay. Inside.",
+   "duration": 4.195
+  },
+  "p2_s01": {
+   "file": "vo/p2_s01.mp3",
+   "speaker": "SUIT",
+   "text": "Closing rate high.",
+   "duration": 1.46
+  },
+  "p2_s02": {
+   "file": "vo/p2_s02.mp3",
+   "speaker": "SUIT",
+   "text": "Tether slack.",
+   "duration": 1.525
+  },
+  "p2_s03": {
+   "file": "vo/p2_s03.mp3",
+   "speaker": "SUIT",
+   "text": "Lateral drift.",
+   "duration": 1.515
+  },
+  "p2_s04": {
+   "file": "vo/p2_s04.mp3",
+   "speaker": "SUIT",
+   "text": "Propellant. Fifty percent.",
+   "duration": 2.16
+  },
+  "p2_s05": {
+   "file": "vo/p2_s05.mp3",
+   "speaker": "SUIT",
+   "text": "Propellant depleted.",
+   "duration": 1.61
+  },
+  "p2_s06": {
+   "file": "vo/p2_s06.mp3",
+   "speaker": "SUIT",
+   "text": "Caution. Oxygen. Thirty percent.",
+   "duration": 3.065
+  },
+  "p2_s07": {
+   "file": "vo/p2_s07.mp3",
+   "speaker": "SUIT",
+   "text": "Warning. Oxygen. Fifteen percent.",
+   "duration": 3.17
+  },
+  "p2_s08": {
+   "file": "vo/p2_s08.mp3",
+   "speaker": "SUIT",
+   "text": "Proximity. Brace.",
+   "duration": 2.155
+  },
+  "p2_s09": {
+   "file": "vo/p2_s09.mp3",
+   "speaker": "SUIT",
+   "text": "Warning. Suit integrity.",
+   "duration": 2.14
+  },
+  "c2_s01": {
+   "file": "vo/c2_s01.mp3",
+   "speaker": "SUIT",
+   "text": "Outer hatch. Sealed.",
+   "duration": 2.115
+  },
+  "c2_001": {
+   "file": "vo/c2_001.mp3",
+   "speaker": "KARL",
+   "text": "Control, EV1 is in the lock. Hatch closed and locked. ...Bram? You're supposed to be on the other side of this door.",
+   "duration": 9.09
+  },
+  "c2_s02": {
+   "file": "vo/c2_s02.mp3",
+   "speaker": "SUIT",
+   "text": "Repressurisation in progress.",
+   "duration": 2.205
+  },
+  "c2_002": {
+   "file": "vo/c2_002.mp3",
+   "speaker": "KARL",
+   "text": "...Hello?",
+   "duration": 1.05
+  },
+  "c2_s03": {
+   "file": "vo/c2_s03.mp3",
+   "speaker": "SUIT",
+   "text": "Pressure nominal. Safe to doff.",
+   "duration": 2.285
+  },
+  "c2_003": {
+   "file": "vo/c2_003.mp3",
+   "speaker": "KARL",
+   "text": "God. ...Okay.",
+   "duration": 3.775
+  },
+  "c2_004": {
+   "file": "vo/c2_004.mp3",
+   "speaker": "KARL",
+   "text": "Bram? Imani?",
+   "duration": 1.74
+  },
+  "a1_001": {
+   "file": "vo/a1_001.mp3",
+   "speaker": "KARL",
+   "text": "Lights are on. That's something.",
+   "duration": 2.67
+  },
+  "a1_002": {
+   "file": "vo/a1_002.mp3",
+   "speaker": "KARL",
+   "text": "All six. Nobody suited up. So nobody came out after me.",
+   "duration": 4.905
+  },
+  "a1_003": {
+   "file": "vo/a1_003.mp3",
+   "speaker": "KARL",
+   "text": "Still warm.",
+   "duration": 2.11
+  },
+  "a1_004": {
+   "file": "vo/a1_004.mp3",
+   "speaker": "KARL",
+   "text": "Nine minutes? I was out there an hour. More.",
+   "duration": 4.125
+  },
+  "a1_005": {
+   "file": "vo/a1_005.mp3",
+   "speaker": "KARL",
+   "text": "Control, it's Karl, I'm on the hardline at Gate Four. ...Come on.",
+   "duration": 6.07
+  },
+  "a1_006": {
+   "file": "vo/a1_006.mp3",
+   "speaker": "KARL",
+   "text": "What the hell.",
+   "duration": 1.675
+  },
+  "a1_007": {
+   "file": "vo/a1_007.mp3",
+   "speaker": "KARL",
+   "text": "Okay. That fell up. That just fell up.",
+   "duration": 4.29
+  },
+  "a1_008": {
+   "file": "vo/a1_008.mp3",
+   "speaker": "KARL",
+   "text": "That stripe's orange. It has always been orange.",
+   "duration": 3.96
+  },
+  "a1_009": {
+   "file": "vo/a1_009.mp3",
+   "speaker": "KARL",
+   "text": "Signals. They were right here. Twenty minutes ago they were right here.",
+   "duration": 5.415
+  },
+  "a1_010": {
+   "file": "vo/a1_010.mp3",
+   "speaker": "KARL",
+   "text": "Dust. There's no dust on a station.",
+   "duration": 3.14
+  },
+  "a1_011": {
+   "file": "vo/a1_011.mp3",
+   "speaker": "KARL",
+   "text": "Dev's fern. He watered that thing every day.",
+   "duration": 3.92
+  },
+  "a1_r01": {
+   "file": "vo/a1_r01.mp3",
+   "speaker": "IMANI",
+   "text": "I've stopped numbering these. Call it day forty-one. Karl, if it's you listening, and it's you I keep expecting... don't go to the Ring. Whatever you see through the windows, don't go to the Ring. Dev says the count never stopped. It just went somewhere we can't hear it. ...We waited as long as we could. The kettle's still on, somewhere.",
+   "duration": 31.655
+  },
+  "a1_012": {
+   "file": "vo/a1_012.mp3",
+   "speaker": "KARL",
+   "text": "Forty-one days. Imani, I was gone an hour.",
+   "duration": 4.325
+  },
+  "a1_013": {
+   "file": "vo/a1_013.mp3",
+   "speaker": "KARL",
+   "text": "...Hello?",
+   "duration": 1.255
+  },
+  "fx_karl_grunt_hit": {
+   "file": "vo/fx_karl_grunt_hit.mp3",
+   "speaker": "KARL",
+   "text": "",
+   "duration": 1.48
+  },
+  "fx_karl_shout_thrown": {
+   "file": "vo/fx_karl_shout_thrown.mp3",
+   "speaker": "KARL",
+   "text": "",
+   "duration": 1.485
+  },
+  "fx_karl_gasp_wake": {
+   "file": "vo/fx_karl_gasp_wake.mp3",
+   "speaker": "KARL",
+   "text": "",
+   "duration": 2.145
+  },
+  "fx_karl_strain_1": {
+   "file": "vo/fx_karl_strain_1.mp3",
+   "speaker": "KARL",
+   "text": "",
+   "duration": 1.595
+  },
+  "fx_karl_strain_2": {
+   "file": "vo/fx_karl_strain_2.mp3",
+   "speaker": "KARL",
+   "text": "",
+   "duration": 2.66
+  },
+  "fx_karl_exhale_relief": {
+   "file": "vo/fx_karl_exhale_relief.mp3",
+   "speaker": "KARL",
+   "text": "",
+   "duration": 2.47
+  }
+ },
+ "sfx": {
+  "suit_bed": {
+   "file": "sfx/suit_bed.mp3",
+   "duration": 22.0,
+   "loop": true
+  },
+  "breath_calm": {
+   "file": "sfx/breath_calm.mp3",
+   "duration": 16.0,
+   "loop": true
+  },
+  "breath_exerted": {
+   "file": "sfx/breath_exerted.mp3",
+   "duration": 16.0,
+   "loop": true
+  },
+  "breath_panic": {
+   "file": "sfx/breath_panic.mp3",
+   "duration": 15.0,
+   "loop": true
+  },
+  "radio_static": {
+   "file": "sfx/radio_static.mp3",
+   "duration": 20.0,
+   "loop": true
+  },
+  "vlf_chorus": {
+   "file": "sfx/vlf_chorus.mp3",
+   "duration": 28.0,
+   "loop": true
+  },
+  "thruster_hiss": {
+   "file": "sfx/thruster_hiss.mp3",
+   "duration": 15.0,
+   "loop": true
+  },
+  "tool_drive_loop": {
+   "file": "sfx/tool_drive_loop.mp3",
+   "duration": 15.0,
+   "loop": true
+  },
+  "repress_hiss": {
+   "file": "sfx/repress_hiss.mp3",
+   "duration": 20.0,
+   "loop": true
+  },
+  "room_tone_bay": {
+   "file": "sfx/room_tone_bay.mp3",
+   "duration": 28.0,
+   "loop": true
+  },
+  "room_tone_corridor": {
+   "file": "sfx/room_tone_corridor.mp3",
+   "duration": 28.0,
+   "loop": true
+  },
+  "room_tone_dead": {
+   "file": "sfx/room_tone_dead.mp3",
+   "duration": 28.0,
+   "loop": true
+  },
+  "anomaly_hum": {
+   "file": "sfx/anomaly_hum.mp3",
+   "duration": 24.0,
+   "loop": true
+  },
+  "heartbeat": {
+   "file": "sfx/heartbeat.mp3",
+   "duration": 15.0,
+   "loop": true
+  },
+  "kettle_hiss": {
+   "file": "sfx/kettle_hiss.mp3",
+   "duration": 17.2,
+   "loop": true
+  },
+  "boot_clamp_1": {
+   "file": "sfx/boot_clamp_1.mp3",
+   "duration": 0.634,
+   "loop": false
+  },
+  "boot_clamp_2": {
+   "file": "sfx/boot_clamp_2.mp3",
+   "duration": 0.774,
+   "loop": false
+  },
+  "boot_clamp_3": {
+   "file": "sfx/boot_clamp_3.mp3",
+   "duration": 0.779,
+   "loop": false
+  },
+  "boot_release_1": {
+   "file": "sfx/boot_release_1.mp3",
+   "duration": 0.689,
+   "loop": false
+  },
+  "boot_release_2": {
+   "file": "sfx/boot_release_2.mp3",
+   "duration": 0.679,
+   "loop": false
+  },
+  "boot_release_3": {
+   "file": "sfx/boot_release_3.mp3",
+   "duration": 0.689,
+   "loop": false
+  },
+  "bolt_seat_1": {
+   "file": "sfx/bolt_seat_1.mp3",
+   "duration": 1.2,
+   "loop": false
+  },
+  "bolt_seat_2": {
+   "file": "sfx/bolt_seat_2.mp3",
+   "duration": 1.07,
+   "loop": false
+  },
+  "panel_open": {
+   "file": "sfx/panel_open.mp3",
+   "duration": 1.908,
+   "loop": false
+  },
+  "connector_seat_1": {
+   "file": "sfx/connector_seat_1.mp3",
+   "duration": 0.724,
+   "loop": false
+  },
+  "connector_seat_2": {
+   "file": "sfx/connector_seat_2.mp3",
+   "duration": 0.696,
+   "loop": false
+  },
+  "latch_close_1": {
+   "file": "sfx/latch_close_1.mp3",
+   "duration": 0.467,
+   "loop": false
+  },
+  "latch_close_2": {
+   "file": "sfx/latch_close_2.mp3",
+   "duration": 0.297,
+   "loop": false
+  },
+  "spark_zap_1": {
+   "file": "sfx/spark_zap_1.mp3",
+   "duration": 0.489,
+   "loop": false
+  },
+  "spark_zap_2": {
+   "file": "sfx/spark_zap_2.mp3",
+   "duration": 0.68,
+   "loop": false
+  },
+  "plate_power_loss": {
+   "file": "sfx/plate_power_loss.mp3",
+   "duration": 2.48,
+   "loop": false
+  },
+  "shock_thump": {
+   "file": "sfx/shock_thump.mp3",
+   "duration": 1.631,
+   "loop": false
+  },
+  "tether_snap_taut_1": {
+   "file": "sfx/tether_snap_taut_1.mp3",
+   "duration": 1.2,
+   "loop": false
+  },
+  "tether_snap_taut_2": {
+   "file": "sfx/tether_snap_taut_2.mp3",
+   "duration": 1.2,
+   "loop": false
+  },
+  "tether_grip_1": {
+   "file": "sfx/tether_grip_1.mp3",
+   "duration": 0.706,
+   "loop": false
+  },
+  "tether_grip_2": {
+   "file": "sfx/tether_grip_2.mp3",
+   "duration": 0.714,
+   "loop": false
+  },
+  "tether_grip_3": {
+   "file": "sfx/tether_grip_3.mp3",
+   "duration": 0.672,
+   "loop": false
+  },
+  "tether_pull_1": {
+   "file": "sfx/tether_pull_1.mp3",
+   "duration": 0.991,
+   "loop": false
+  },
+  "tether_pull_2": {
+   "file": "sfx/tether_pull_2.mp3",
+   "duration": 1.036,
+   "loop": false
+  },
+  "tether_pull_3": {
+   "file": "sfx/tether_pull_3.mp3",
+   "duration": 1.028,
+   "loop": false
+  },
+  "impact_soft_1": {
+   "file": "sfx/impact_soft_1.mp3",
+   "duration": 0.674,
+   "loop": false
+  },
+  "impact_soft_2": {
+   "file": "sfx/impact_soft_2.mp3",
+   "duration": 0.8,
+   "loop": false
+  },
+  "impact_hard_1": {
+   "file": "sfx/impact_hard_1.mp3",
+   "duration": 1.2,
+   "loop": false
+  },
+  "impact_hard_2": {
+   "file": "sfx/impact_hard_2.mp3",
+   "duration": 1.2,
+   "loop": false
+  },
+  "visor_crack": {
+   "file": "sfx/visor_crack.mp3",
+   "duration": 0.731,
+   "loop": false
+  },
+  "debris_pass": {
+   "file": "sfx/debris_pass.mp3",
+   "duration": 3.26,
+   "loop": false
+  },
+  "rcs_burst_1": {
+   "file": "sfx/rcs_burst_1.mp3",
+   "duration": 1.469,
+   "loop": false
+  },
+  "rcs_burst_2": {
+   "file": "sfx/rcs_burst_2.mp3",
+   "duration": 1.48,
+   "loop": false
+  },
+  "handle_grab": {
+   "file": "sfx/handle_grab.mp3",
+   "duration": 1.029,
+   "loop": false
+  },
+  "panel_pry": {
+   "file": "sfx/panel_pry.mp3",
+   "duration": 1.086,
+   "loop": false
+  },
+  "jumper_clip_1": {
+   "file": "sfx/jumper_clip_1.mp3",
+   "duration": 0.147,
+   "loop": false
+  },
+  "jumper_clip_2": {
+   "file": "sfx/jumper_clip_2.mp3",
+   "duration": 0.149,
+   "loop": false
+  },
+  "short_circuit": {
+   "file": "sfx/short_circuit.mp3",
+   "duration": 1.269,
+   "loop": false
+  },
+  "lever_ratchet": {
+   "file": "sfx/lever_ratchet.mp3",
+   "duration": 1.817,
+   "loop": false
+  },
+  "actuator_grind": {
+   "file": "sfx/actuator_grind.mp3",
+   "duration": 2.991,
+   "loop": false
+  },
+  "hatch_slide_open": {
+   "file": "sfx/hatch_slide_open.mp3",
+   "duration": 3.138,
+   "loop": false
+  },
+  "hatch_slide_close_seal": {
+   "file": "sfx/hatch_slide_close_seal.mp3",
+   "duration": 3.901,
+   "loop": false
+  },
+  "grav_drop": {
+   "file": "sfx/grav_drop.mp3",
+   "duration": 1.25,
+   "loop": false
+  },
+  "valve_turn": {
+   "file": "sfx/valve_turn.mp3",
+   "duration": 2.821,
+   "loop": false
+  },
+  "pressure_thump_distant": {
+   "file": "sfx/pressure_thump_distant.mp3",
+   "duration": 3.48,
+   "loop": false
+  },
+  "ears_pop": {
+   "file": "sfx/ears_pop.mp3",
+   "duration": 0.4,
+   "loop": false
+  },
+  "glove_unlock_1": {
+   "file": "sfx/glove_unlock_1.mp3",
+   "duration": 0.716,
+   "loop": false
+  },
+  "glove_unlock_2": {
+   "file": "sfx/glove_unlock_2.mp3",
+   "duration": 0.767,
+   "loop": false
+  },
+  "glove_off": {
+   "file": "sfx/glove_off.mp3",
+   "duration": 1.381,
+   "loop": false
+  },
+  "helmet_unlatch": {
+   "file": "sfx/helmet_unlatch.mp3",
+   "duration": 0.427,
+   "loop": false
+  },
+  "helmet_lift": {
+   "file": "sfx/helmet_lift.mp3",
+   "duration": 1.401,
+   "loop": false
+  },
+  "suit_dock_clunk": {
+   "file": "sfx/suit_dock_clunk.mp3",
+   "duration": 1.114,
+   "loop": false
+  },
+  "hatch_wheel_spin": {
+   "file": "sfx/hatch_wheel_spin.mp3",
+   "duration": 2.353,
+   "loop": false
+  },
+  "hatch_swing_heavy": {
+   "file": "sfx/hatch_swing_heavy.mp3",
+   "duration": 2.851,
+   "loop": false
+  },
+  "door_slide_open": {
+   "file": "sfx/door_slide_open.mp3",
+   "duration": 1.397,
+   "loop": false
+  },
+  "door_slide_close": {
+   "file": "sfx/door_slide_close.mp3",
+   "duration": 1.289,
+   "loop": false
+  },
+  "footstep_deck_1": {
+   "file": "sfx/footstep_deck_1.mp3",
+   "duration": 0.457,
+   "loop": false
+  },
+  "footstep_deck_2": {
+   "file": "sfx/footstep_deck_2.mp3",
+   "duration": 0.437,
+   "loop": false
+  },
+  "footstep_deck_3": {
+   "file": "sfx/footstep_deck_3.mp3",
+   "duration": 0.439,
+   "loop": false
+  },
+  "footstep_deck_4": {
+   "file": "sfx/footstep_deck_4.mp3",
+   "duration": 0.447,
+   "loop": false
+  },
+  "footstep_deck_5": {
+   "file": "sfx/footstep_deck_5.mp3",
+   "duration": 0.439,
+   "loop": false
+  },
+  "mug_touch": {
+   "file": "sfx/mug_touch.mp3",
+   "duration": 0.532,
+   "loop": false
+  },
+  "object_fall_up": {
+   "file": "sfx/object_fall_up.mp3",
+   "duration": 1.448,
+   "loop": false
+  },
+  "droplet_pop": {
+   "file": "sfx/droplet_pop.mp3",
+   "duration": 0.6,
+   "loop": false
+  },
+  "intercom_click": {
+   "file": "sfx/intercom_click.mp3",
+   "duration": 0.409,
+   "loop": false
+  },
+  "recorder_click_on": {
+   "file": "sfx/recorder_click_on.mp3",
+   "duration": 0.754,
+   "loop": false
+  },
+  "recorder_click_off": {
+   "file": "sfx/recorder_click_off.mp3",
+   "duration": 0.404,
+   "loop": false
+  },
+  "light_fail_1": {
+   "file": "sfx/light_fail_1.mp3",
+   "duration": 1.25,
+   "loop": false
+  },
+  "light_fail_2": {
+   "file": "sfx/light_fail_2.mp3",
+   "duration": 1.1,
+   "loop": false
+  },
+  "bulkhead_unlock": {
+   "file": "sfx/bulkhead_unlock.mp3",
+   "duration": 2.951,
+   "loop": false
+  },
+  "dust_door_open": {
+   "file": "sfx/dust_door_open.mp3",
+   "duration": 3.356,
+   "loop": false
+  },
+  "ui_confirm": {
+   "file": "sfx/ui_confirm.mp3",
+   "duration": 0.34,
+   "loop": false
+  },
+  "ui_move": {
+   "file": "sfx/ui_move.mp3",
+   "duration": 0.07,
+   "loop": false
+  },
+  "tone_alert": {
+   "file": "sfx/tone_alert.mp3",
+   "duration": 0.2,
+   "loop": false
+  },
+  "tone_warning": {
+   "file": "sfx/tone_warning.mp3",
+   "duration": 1.2,
+   "loop": false
+  },
+  "tone_reject": {
+   "file": "sfx/tone_reject.mp3",
+   "duration": 0.29,
+   "loop": false
+  },
+  "tone_key": {
+   "file": "sfx/tone_key.mp3",
+   "duration": 0.05,
+   "loop": false
+  },
+  "quindar_on": {
+   "file": "sfx/quindar_on.mp3",
+   "duration": 0.25,
+   "loop": false
+  },
+  "quindar_off": {
+   "file": "sfx/quindar_off.mp3",
+   "duration": 0.25,
+   "loop": false
+  },
+  "tone_lock": {
+   "file": "sfx/tone_lock.mp3",
+   "duration": 0.42,
+   "loop": false
+  },
+  "hud_boot": {
+   "file": "sfx/hud_boot.mp3",
+   "duration": 1.5,
+   "loop": false
+  }
+ },
+ "music": {
+  "mus_title": {
+   "file": "music/mus_title.mp3",
+   "duration": 54.0,
+   "loop": true
+  },
+  "mus_tether": {
+   "file": "music/mus_tether.mp3",
+   "duration": 115.25,
+   "loop": true
+  },
+  "mus_interior": {
+   "file": "music/mus_interior.mp3",
+   "duration": 99.5,
+   "loop": true
+  },
+  "mus_p1_work": {
+   "file": "music/mus_p1_work.mp3",
+   "duration": 71.03,
+   "loop": true
+  },
+  "mus_p1_unease": {
+   "file": "music/mus_p1_unease.mp3",
+   "duration": 81.02,
+   "loop": true
+  },
+  "mus_c1_wake": {
+   "file": "music/mus_c1_wake.mp3",
+   "duration": 32.03,
+   "loop": true
+  },
+  "mus_p2_sunrise": {
+   "file": "music/mus_p2_sunrise.mp3",
+   "duration": 66.02,
+   "loop": true
+  },
+  "mus_corridor": {
+   "file": "music/mus_corridor.mp3",
+   "duration": 81.02,
+   "loop": true
+  },
+  "mus_signals": {
+   "file": "music/mus_signals.mp3",
+   "duration": 71.04,
+   "loop": true
+  },
+  "mus_p2_gate": {
+   "file": "music/mus_p2_gate.mp3",
+   "duration": 12.48,
+   "loop": false
+  },
+  "mus_lock": {
+   "file": "music/mus_lock.mp3",
+   "duration": 104.3,
+   "loop": false
+  },
+  "mus_ending": {
+   "file": "music/mus_ending.mp3",
+   "duration": 29.56,
+   "loop": false
+  },
+  "mus_c1_signal": {
+   "file": "music/mus_c1_signal.mp3",
+   "duration": 15.0,
+   "loop": false
+  },
+  "mus_c1_reveal": {
+   "file": "music/mus_c1_reveal.mp3",
+   "duration": 25.3,
+   "loop": false
+  },
+  "mus_c1_tumble": {
+   "file": "music/mus_c1_tumble.mp3",
+   "duration": 14.95,
+   "loop": false
+  },
+  "mus_p1_build": {
+   "file": "music/mus_p1_build.mp3",
+   "duration": 26.03,
+   "loop": true
+  }
+ },
+ "sfx_variants": {
+  "boot_clamp": [
+   "boot_clamp_1",
+   "boot_clamp_2",
+   "boot_clamp_3"
+  ],
+  "boot_release": [
+   "boot_release_1",
+   "boot_release_2",
+   "boot_release_3"
+  ],
+  "bolt_seat": [
+   "bolt_seat_1",
+   "bolt_seat_2"
+  ],
+  "connector_seat": [
+   "connector_seat_1",
+   "connector_seat_2"
+  ],
+  "latch_close": [
+   "latch_close_1",
+   "latch_close_2"
+  ],
+  "spark_zap": [
+   "spark_zap_1",
+   "spark_zap_2"
+  ],
+  "tether_snap_taut": [
+   "tether_snap_taut_1",
+   "tether_snap_taut_2"
+  ],
+  "tether_grip": [
+   "tether_grip_1",
+   "tether_grip_2",
+   "tether_grip_3"
+  ],
+  "tether_pull": [
+   "tether_pull_1",
+   "tether_pull_2",
+   "tether_pull_3"
+  ],
+  "impact_soft": [
+   "impact_soft_1",
+   "impact_soft_2"
+  ],
+  "impact_hard": [
+   "impact_hard_1",
+   "impact_hard_2"
+  ],
+  "rcs_burst": [
+   "rcs_burst_1",
+   "rcs_burst_2"
+  ],
+  "jumper_clip": [
+   "jumper_clip_1",
+   "jumper_clip_2"
+  ],
+  "glove_unlock": [
+   "glove_unlock_1",
+   "glove_unlock_2"
+  ],
+  "footstep_deck": [
+   "footstep_deck_1",
+   "footstep_deck_2",
+   "footstep_deck_3",
+   "footstep_deck_4",
+   "footstep_deck_5"
+  ],
+  "light_fail": [
+   "light_fail_1",
+   "light_fail_2"
+  ]
+ }
+}

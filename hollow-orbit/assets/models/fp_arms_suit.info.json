@@ -1,0 +1,1337 @@
+{
+ "name": "fp_arms_suit",
+ "convention": "eye at the origin looking down -Z, +Y up, +X right; metres; 16:9. The game draws the arms as a viewmodel (66 deg vertical FOV, model moved 0.02 m forward and 0.025 m up): screen positions are composed and checked with that (anim.vm / anim.to_vm, s7_strips.py)",
+ "nodes": [
+  "anchor_grip_L",
+  "anchor_grip_R",
+  "anchor_tool_R",
+  "arm_L",
+  "arm_R",
+  "forearm_L",
+  "forearm_R",
+  "forearm_twist_L",
+  "forearm_twist_R",
+  "fp_arms_suit",
+  "fp_root",
+  "glove_L",
+  "glove_R",
+  "grip_L",
+  "grip_R",
+  "hand_L",
+  "hand_R",
+  "index_01_L",
+  "index_01_R",
+  "index_02_L",
+  "index_02_R",
+  "index_03_L",
+  "index_03_R",
+  "middle_01_L",
+  "middle_01_R",
+  "middle_02_L",
+  "middle_02_R",
+  "middle_03_L",
+  "middle_03_R",
+  "pinky_01_L",
+  "pinky_01_R",
+  "pinky_02_L",
+  "pinky_02_R",
+  "pinky_03_L",
+  "pinky_03_R",
+  "ring_01_L",
+  "ring_01_R",
+  "ring_02_L",
+  "ring_02_R",
+  "ring_03_L",
+  "ring_03_R",
+  "thumb_01_L",
+  "thumb_01_R",
+  "thumb_02_L",
+  "thumb_02_R",
+  "thumb_03_L",
+  "thumb_03_R",
+  "upper_arm_L",
+  "upper_arm_R"
+ ],
+ "meshes": [
+  "arm_L",
+  "arm_R",
+  "glove_L",
+  "glove_R"
+ ],
+ "anchors": {
+  "anchor_grip_L": [
+   -0.18807,
+   -0.26111,
+   -0.55964
+  ],
+  "anchor_grip_R": [
+   0.18807,
+   -0.26111,
+   -0.55964
+  ],
+  "anchor_tool_R": [
+   0.18303,
+   -0.26175,
+   -0.55198
+  ]
+ },
+ "anchor_frames": {
+  "anchor_grip_L": {
+   "parent_bone": "grip_L",
+   "x": [
+    0.06753,
+    0.04058,
+    0.99689
+   ],
+   "y": [
+    0.9973,
+    -0.03171,
+    -0.06627
+   ],
+   "z": [
+    0.02892,
+    0.99867,
+    -0.04261
+   ]
+  },
+  "anchor_grip_R": {
+   "parent_bone": "grip_R",
+   "x": [
+    0.06753,
+    -0.04058,
+    -0.99689
+   ],
+   "y": [
+    -0.9973,
+    -0.03171,
+    -0.06627
+   ],
+   "z": [
+    -0.02892,
+    0.99867,
+    -0.04261
+   ]
+  },
+  "anchor_tool_R": {
+   "parent_bone": "hand_R",
+   "x": [
+    -0.9973,
+    -0.03171,
+    -0.06627
+   ],
+   "y": [
+    -0.03572,
+    0.99755,
+    0.06017
+   ],
+   "z": [
+    0.0642,
+    0.06237,
+    -0.99599
+   ]
+  }
+ },
+ "clips": [
+  {
+   "name": "idle",
+   "duration": 4.0,
+   "loop": true,
+   "pose": false,
+   "frames": 120,
+   "authored_duration": 4.0,
+   "note": "the rest: gloves low and wide, backs to the eye, fingers curled; slow float",
+   "refs": {}
+  },
+  {
+   "name": "walk_sway",
+   "duration": 1.6,
+   "loop": true,
+   "pose": false,
+   "frames": 48,
+   "authored_duration": 1.6,
+   "note": "magnetic-boot gait, 1.6 s = two steps: the left boot releases at t = 0 and locks at 0.8 s, when the right releases; the arms counter-swing +/-4 deg",
+   "refs": {
+    "release_L_s": 0.0,
+    "release_R_s": 0.8,
+    "swing_deg": 4.0,
+    "loop_seconds": 1.6,
+    "phase": "clip time = gait phase (0..1 over two steps) * 1.6 s: play(walk_sway, {at}) / seek()"
+   }
+  },
+  {
+   "name": "hand_rest",
+   "duration": 0.0333,
+   "loop": false,
+   "pose": true,
+   "frames": 1,
+   "authored_duration": 0.0,
+   "note": "left hand resting palm-down on an edge (anchor_grip_L = the contact point), right at rest",
+   "refs": {
+    "rest_point": [
+     -0.235,
+     -0.1711,
+     -0.43
+    ],
+    "surface_normal": [
+     0.0,
+     1.0,
+     -0.0
+    ],
+    "edge_dir": [
+     0.9326,
+     0.0,
+     0.361
+    ]
+   }
+  },
+  {
+   "name": "tool_idle",
+   "duration": 4.0,
+   "loop": true,
+   "pose": false,
+   "frames": 120,
+   "authored_duration": 4.0,
+   "note": "right hand holds the pistol-grip tool low right",
+   "refs": {}
+  },
+  {
+   "name": "tool_raise",
+   "duration": 0.5,
+   "loop": false,
+   "pose": false,
+   "frames": 15,
+   "authored_duration": 0.5,
+   "note": "tool_idle -> tool on the bolt; left hand goes to its rest on the unit",
+   "refs": {}
+  },
+  {
+   "name": "tool_drive",
+   "duration": 1.2,
+   "loop": false,
+   "pose": false,
+   "frames": 36,
+   "authored_duration": 1.2,
+   "note": "push in, trigger, torque kick twists the wrist, settle (ends raised)",
+   "refs": {
+    "bolt": [
+     0.1076,
+     -0.0168,
+     -0.6647
+    ],
+    "chuck_axis": [
+     -0.0502,
+     0.0201,
+     -0.9985
+    ]
+   }
+  },
+  {
+   "name": "plug_reach",
+   "duration": 0.5,
+   "loop": false,
+   "pose": false,
+   "frames": 15,
+   "authored_duration": 0.5,
+   "note": "right hand forward to a loose connector, opening",
+   "refs": {}
+  },
+  {
+   "name": "plug_hold",
+   "duration": 0.0333,
+   "loop": false,
+   "pose": true,
+   "frames": 1,
+   "authored_duration": 0.0,
+   "note": "three-finger pinch on the 4 cm connector shell",
+   "refs": {
+    "mating_face": [
+     0.085,
+     -0.115,
+     -0.47
+    ],
+    "insertion_axis": [
+     -0.1206,
+     -0.3617,
+     -0.9244
+    ]
+   }
+  },
+  {
+   "name": "plug_seat",
+   "duration": 0.5,
+   "loop": false,
+   "pose": false,
+   "frames": 15,
+   "authored_duration": 0.5,
+   "note": "push forward 6 cm with a quarter twist; ends seated",
+   "refs": {
+    "mating_face_start": [
+     0.085,
+     -0.115,
+     -0.47
+    ],
+    "mating_face_end": [
+     0.0778,
+     -0.1367,
+     -0.5255
+    ],
+    "insertion_axis": [
+     -0.1206,
+     -0.3617,
+     -0.9244
+    ],
+    "twist_deg": 90
+   }
+  },
+  {
+   "name": "latch_flip",
+   "duration": 0.4,
+   "loop": false,
+   "pose": false,
+   "frames": 12,
+   "authored_duration": 0.4,
+   "note": "index finger flicks the bale latch over the seated connector",
+   "refs": {
+    "latch": [
+     0.0808,
+     -0.0957,
+     -0.5144
+    ]
+   }
+  },
+  {
+   "name": "haul_idle",
+   "duration": 3.0,
+   "loop": true,
+   "pose": false,
+   "frames": 90,
+   "authored_duration": 3.0,
+   "note": "both hands on the line: right hand leading (upper), left hand trailing (lower)",
+   "refs": {
+    "line_point": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "line_dir": [
+     0.922,
+     0.3269,
+     -0.2075
+    ],
+    "upper_grip": [
+     0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lower_grip": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "far_dir": [
+     -0.0051,
+     0.1399,
+     -0.9902
+    ],
+    "lead_L": [
+     -0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lead_R": [
+     0.1,
+     -0.1824,
+     -0.485
+    ],
+    "trail_L": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "trail_R": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "hands_apart_m": 0.217,
+    "reach_grip": [
+     0.0393,
+     -0.1642,
+     -0.6137
+    ],
+    "hand_travel_m": 0.191
+   }
+  },
+  {
+   "name": "haul_L",
+   "duration": 0.7333,
+   "loop": false,
+   "pose": false,
+   "frames": 22,
+   "authored_duration": 0.75,
+   "note": "left hand releases, reaches up the line past the right, wraps, pulls in; ends left leading / right trailing",
+   "refs": {
+    "line_point": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "line_dir": [
+     -0.922,
+     0.3269,
+     -0.2075
+    ],
+    "upper_grip": [
+     -0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lower_grip": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "far_dir": [
+     0.0051,
+     0.1399,
+     -0.9902
+    ],
+    "lead_L": [
+     -0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lead_R": [
+     0.1,
+     -0.1824,
+     -0.485
+    ],
+    "trail_L": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "trail_R": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "hands_apart_m": 0.217,
+    "reach_grip": [
+     0.0393,
+     -0.1642,
+     -0.6137
+    ],
+    "hand_travel_m": 0.191,
+    "release_s": 0.054,
+    "grip_s": 0.293
+   }
+  },
+  {
+   "name": "haul_R",
+   "duration": 0.7333,
+   "loop": false,
+   "pose": false,
+   "frames": 22,
+   "authored_duration": 0.75,
+   "note": "starts left leading / right trailing, ends in haul_idle",
+   "refs": {
+    "line_point": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "line_dir": [
+     0.922,
+     0.3269,
+     -0.2075
+    ],
+    "upper_grip": [
+     0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lower_grip": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "far_dir": [
+     -0.0051,
+     0.1399,
+     -0.9902
+    ],
+    "lead_L": [
+     -0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lead_R": [
+     0.1,
+     -0.1824,
+     -0.485
+    ],
+    "trail_L": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "trail_R": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "hands_apart_m": 0.217,
+    "reach_grip": [
+     -0.0393,
+     -0.1642,
+     -0.6137
+    ],
+    "hand_travel_m": 0.191,
+    "release_s": 0.054,
+    "grip_s": 0.293
+   }
+  },
+  {
+   "name": "haul_fumble",
+   "duration": 0.5,
+   "loop": false,
+   "pose": false,
+   "frames": 15,
+   "authored_duration": 0.5,
+   "note": "missed grab with the LEFT hand (same hand twice); starts/ends left leading / right trailing",
+   "refs": {
+    "line_point": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "line_dir": [
+     -0.922,
+     0.3269,
+     -0.2075
+    ],
+    "upper_grip": [
+     -0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lower_grip": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "far_dir": [
+     0.0051,
+     0.1399,
+     -0.9902
+    ],
+    "lead_L": [
+     -0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lead_R": [
+     0.1,
+     -0.1824,
+     -0.485
+    ],
+    "trail_L": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "trail_R": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "hands_apart_m": 0.217,
+    "reach_grip": [
+     -0.0992,
+     -0.1614,
+     -0.6335
+    ],
+    "hand_travel_m": 0.15
+   }
+  },
+  {
+   "name": "haul_fumble_R",
+   "duration": 0.5,
+   "loop": false,
+   "pose": false,
+   "frames": 15,
+   "authored_duration": 0.5,
+   "note": "missed grab with the RIGHT hand; starts/ends in haul_idle",
+   "refs": {
+    "line_point": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "line_dir": [
+     0.922,
+     0.3269,
+     -0.2075
+    ],
+    "upper_grip": [
+     0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lower_grip": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "far_dir": [
+     -0.0051,
+     0.1399,
+     -0.9902
+    ],
+    "lead_L": [
+     -0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lead_R": [
+     0.1,
+     -0.1824,
+     -0.485
+    ],
+    "trail_L": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "trail_R": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "hands_apart_m": 0.217,
+    "reach_grip": [
+     0.0992,
+     -0.1614,
+     -0.6335
+    ],
+    "hand_travel_m": 0.15
+   }
+  },
+  {
+   "name": "haul_float",
+   "duration": 3.0,
+   "loop": true,
+   "pose": false,
+   "frames": 90,
+   "authored_duration": 3.0,
+   "note": "line slack: both hands have let go and hang low at the sides, thumbs up",
+   "refs": {
+    "lead_L": [
+     -0.1,
+     -0.1824,
+     -0.485
+    ],
+    "lead_R": [
+     0.1,
+     -0.1824,
+     -0.485
+    ],
+    "trail_L": [
+     -0.1,
+     -0.2533,
+     -0.44
+    ],
+    "trail_R": [
+     0.1,
+     -0.2533,
+     -0.44
+    ],
+    "reach_grip_L": [
+     0.0393,
+     -0.1642,
+     -0.6137
+    ],
+    "reach_grip_R": [
+     -0.0393,
+     -0.1642,
+     -0.6137
+    ],
+    "far_dir": [
+     -0.0051,
+     0.1399,
+     -0.9902
+    ]
+   }
+  },
+  {
+   "name": "thrust_brace",
+   "duration": 0.0333,
+   "loop": false,
+   "pose": true,
+   "frames": 1,
+   "authored_duration": 0.0,
+   "note": "both arms forward and low, palms out, fingers together",
+   "refs": {}
+  },
+  {
+   "name": "tumble_flail",
+   "duration": 2.0,
+   "loop": true,
+   "pose": false,
+   "frames": 60,
+   "authored_duration": 2.0,
+   "note": "loose, drifting arms",
+   "refs": {}
+  },
+  {
+   "name": "reach_handle",
+   "duration": 1.0,
+   "loop": false,
+   "pose": false,
+   "frames": 30,
+   "authored_duration": 1.0,
+   "note": "SCRUBBED by QTE progress: tucked -> fully extended, fingers opening, trembling at full stretch",
+   "refs": {
+    "bar_point": [
+     0.05,
+     -0.05,
+     -0.605
+    ],
+    "bar_axis": [
+     0.0,
+     1.0,
+     -0.0
+    ],
+    "bar_diameter": 0.035
+   }
+  },
+  {
+   "name": "grab_handle",
+   "duration": 0.3333,
+   "loop": false,
+   "pose": false,
+   "frames": 10,
+   "authored_duration": 0.35,
+   "note": "fingers snap closed on the 3.5 cm bar; ends in the hang pose",
+   "refs": {
+    "bar_point": [
+     0.05,
+     -0.05,
+     -0.605
+    ],
+    "bar_axis": [
+     0.0,
+     1.0,
+     -0.0
+    ],
+    "bar_diameter": 0.035
+   }
+  },
+  {
+   "name": "hang_handle",
+   "duration": 3.0,
+   "loop": true,
+   "pose": false,
+   "frames": 90,
+   "authored_duration": 3.0,
+   "note": "holding the bar, body swinging slightly",
+   "refs": {
+    "bar_point": [
+     0.05,
+     -0.05,
+     -0.605
+    ],
+    "bar_axis": [
+     0.0,
+     1.0,
+     -0.0
+    ],
+    "bar_diameter": 0.035
+   }
+  },
+  {
+   "name": "grab_miss",
+   "duration": 0.9,
+   "loop": false,
+   "pose": false,
+   "frames": 27,
+   "authored_duration": 0.9,
+   "note": "the rail goes by: the right hand closes on nothing and is thrown down to brace low on the right; the left lunges after the rail, fingers closing on air, and stays out. Starts from reach_handle fully extended; ends still reaching (cross-fade out of it)",
+   "refs": {
+    "bar_point": [
+     0.05,
+     -0.05,
+     -0.605
+    ],
+    "bar_axis": [
+     0.0,
+     1.0,
+     -0.0
+    ],
+    "claw_s": 0.1,
+    "lunge_s": 0.56,
+    "lunge_point": [
+     -0.01,
+     -0.075,
+     -0.565
+    ]
+   }
+  },
+  {
+   "name": "panel_pry",
+   "duration": 1.0,
+   "loop": false,
+   "pose": false,
+   "frames": 30,
+   "authored_duration": 1.0,
+   "note": "right hand hooks the cover edge and pries it open; left hand stays at rest, out of the way",
+   "refs": {
+    "cover_hinge": [
+     -0.15,
+     -0.07,
+     -0.5
+    ],
+    "cover_free_edge_closed": [
+     0.11,
+     -0.07,
+     -0.5
+    ],
+    "opens_deg": 24
+   }
+  },
+  {
+   "name": "door_pull",
+   "duration": 1.0,
+   "loop": false,
+   "pose": false,
+   "frames": 30,
+   "authored_duration": 1.0,
+   "note": "both hands take a vertical pull handle (right above left) and heave the door off its seal; same timing as panel_pry",
+   "refs": {
+    "handle_point": [
+     0.03,
+     -0.047,
+     -0.455
+    ],
+    "handle_grip_L": [
+     0.03,
+     -0.157,
+     -0.455
+    ],
+    "handle_axis": [
+     0.0,
+     1.0,
+     -0.0
+    ],
+    "hinge": [
+     0.44,
+     -0.095,
+     -0.455
+    ],
+    "hinge_to_handle_m": 0.41,
+    "opens_deg": 15,
+    "hands_on_s": 0.44,
+    "closed_s": 0.5
+   }
+  },
+  {
+   "name": "jumper_clip",
+   "duration": 0.6,
+   "loop": false,
+   "pose": false,
+   "frames": 18,
+   "authored_duration": 0.6,
+   "note": "right hand squeezes a clip open, places it on a terminal, lets go",
+   "refs": {
+    "terminal": [
+     0.04,
+     -0.075,
+     -0.5
+    ],
+    "clip_released_at_s": 0.47
+   }
+  },
+  {
+   "name": "lever_pull",
+   "duration": 0.6,
+   "loop": false,
+   "pose": false,
+   "frames": 18,
+   "authored_duration": 0.6,
+   "note": "reach the manual release lever, grip, haul it down; ends in lever_hold",
+   "refs": {
+    "pivot": [
+     0.1,
+     -0.1,
+     -0.55
+    ],
+    "handle_up": [
+     0.1,
+     0.0383,
+     -0.4511
+    ],
+    "handle_down": [
+     0.1,
+     -0.1421,
+     -0.3853
+    ],
+    "handle_axis": [
+     1.0,
+     0.0,
+     -0.0
+    ]
+   }
+  },
+  {
+   "name": "lever_hold",
+   "duration": 2.0,
+   "loop": true,
+   "pose": false,
+   "frames": 60,
+   "authored_duration": 2.0,
+   "note": "holding the lever down, straining",
+   "refs": {
+    "pivot": [
+     0.1,
+     -0.1,
+     -0.55
+    ],
+    "handle_up": [
+     0.1,
+     0.0383,
+     -0.4511
+    ],
+    "handle_down": [
+     0.1,
+     -0.1421,
+     -0.3853
+    ],
+    "handle_axis": [
+     1.0,
+     0.0,
+     -0.0
+    ]
+   }
+  },
+  {
+   "name": "valve_turn",
+   "duration": 1.2,
+   "loop": true,
+   "pose": false,
+   "frames": 36,
+   "authored_duration": 1.2,
+   "note": "both hands on a wheel valve, alternating strokes; wheel turns +128 deg (CCW seen by Karl) per loop",
+   "refs": {
+    "centre": [
+     0.0,
+     -0.12,
+     -0.44
+    ],
+    "axis_toward_viewer": [
+     0.0,
+     0.2425,
+     0.9701
+    ],
+    "rim_radius": 0.1,
+    "deg_per_loop": 128
+   }
+  },
+  {
+   "name": "glove_twist_L",
+   "duration": 1.6,
+   "loop": false,
+   "pose": false,
+   "frames": 48,
+   "authored_duration": 1.6,
+   "note": "right hand grips the left wrist ring, twists it 38 deg, slides the glove off and carries it out lower-left",
+   "refs": {
+    "grip_at_s": 0.58,
+    "twist_s": [
+     0.63,
+     0.92
+    ],
+    "glove_free_from_s": 0.92,
+    "out_of_frame_by_s": 1.5
+   }
+  }
+ ],
+ "bounds": {
+  "min": [
+   -0.2956,
+   -0.3413,
+   -0.7176
+  ],
+  "max": [
+   0.2956,
+   -0.1276,
+   0.0013
+  ]
+ },
+ "triangles": 38938,
+ "triangles_per_arm": 19469,
+ "materials": [
+  "fp_arm_suit",
+  "wrist_cap"
+ ],
+ "skeleton": {
+  "root": "fp_root",
+  "sides": [
+   "L",
+   "R"
+  ],
+  "chain": [
+   "upper_arm",
+   "forearm",
+   "hand"
+  ],
+  "extra": [
+   "forearm_twist",
+   "grip"
+  ],
+  "fingers": [
+   "thumb_01",
+   "thumb_02",
+   "thumb_03",
+   "index_01",
+   "index_02",
+   "index_03",
+   "middle_01",
+   "middle_02",
+   "middle_03",
+   "ring_01",
+   "ring_02",
+   "ring_03",
+   "pinky_01",
+   "pinky_02",
+   "pinky_03"
+  ],
+  "shoulder_R": [
+   0.235,
+   -0.25,
+   0.06
+  ],
+  "elbow_R": [
+   0.235,
+   -0.25,
+   -0.25
+  ],
+  "wrist_R": [
+   0.235,
+   -0.25,
+   -0.496
+  ],
+  "upper_arm_length": 0.31,
+  "forearm_length": 0.246,
+  "rest_pose": "arms straight ahead (-Z), thumbs up, palms facing each other",
+  "notes": "forearm_twist carries the twist component of the hand rotation: on the suit it is the glove half of the wrist bearing (rigid ring), all clips key it. If the game poses hand_* itself it must copy the twist about the forearm axis to forearm_twist_*. upper_arm_* may carry small translation keys (shoulder girdle reach)."
+ },
+ "fps": 30,
+ "textures": {
+  "base_color": 4096,
+  "normal": 4096,
+  "orm": 2048,
+  "format": "webp (EXT_texture_webp)"
+ },
+ "usage": {
+  "blend": "Clips are authored to chain: tool_idle -> tool_raise -> tool_drive (ends raised) ; plug_reach -> plug_hold -> plug_seat -> latch_flip ; reach_handle (scrub 0..1 s) -> grab_handle -> hang_handle, or reach_handle -> grab_miss (ends still reaching) ; lever_pull -> lever_hold ; panel_pry (one hand, a cover edge) and door_pull (two hands, a pull handle) share their timing. Cross-fade 0.1-0.15 s elsewhere.",
+  "haul": "haul_idle = right hand leading (upper) / left hand trailing (lower); haul_L ends left leading / right trailing, haul_R starts there and ends in haul_idle; haul_fumble (left) and haul_fumble_R (right) start and end with their own hand leading. Each hand has two holds on its own side of the centre: refs lead_L/lead_R (higher) and trail_L/trail_R (lower, nearly as far out). The line BENDS at the leading fist: taut from the anchor to it, then across to the trailing fist (refs line_point + line_dir = that stretch between the fists as the clip ENDS, exact all through haul_idle and the fumbles), then to the reel. During haul_L / haul_R the reaching fist is open between the markers release and grip (refs release_s, grip_s): the line then runs through the other fist only. reach_grip = where the reaching hand closes on the taut line beyond the leading fist (aim it at the real line). haul_float = the line has gone slack: both hands let go and hang low at the sides, thumbs up, fingers curled; play it, or pose() it over a haul clip with a 0.15 s fade, and play haul_L / haul_R from it on the next reach.",
+  "rest": "idle is the rest: gloves low and wide, backs to the eye, fingers curled (see framing.rest). walk_sway is the same rest with the gait on it: clip time = gait phase x 1.6 s, the left boot releases at 0 and the right at 0.8 s (markers release_L / release_R); start it with play(walk_sway, {at}) and keep it in step with seek() / setRate(). hand_rest = the left hand palm-down on an edge; the same left hand is in tool_raise (it arrives), tool_drive, plug_reach (it arrives), plug_hold, plug_seat and latch_flip, so the free hand rests on the unit whenever the right hand works. In all of them anchor_grip_L is the contact point of the palm.",
+  "pose_clips": "plug_hold, thrust_brace and hand_rest are 2 identical keys 1/30 s apart (hold the first frame).",
+  "anchor_grip": "anchor_grip_L/R ride on the non-deforming bones grip_L/R. At rest they sit in the palm (+Z along a gripped bar from the little-finger side to the index side, +Y out of the palm). In plug_reach/plug_hold/plug_seat anchor_grip_R is moved to the mating face of the pinched connector (+Z = insertion direction); in jumper_clip to the jaw of the pinched clip.",
+  "anchor_tool": "anchor_tool_R (child of hand_R): tool origin at the centre of the pistol grip, +Z chuck axis away from the user, +Y up \u2014 matches tool_pgt.glb.",
+  "glove_twist_L": "glove_L is its own skinned mesh (hand_L, finger bones, forearm_twist_L = the glove half of the wrist bearing). In glove_twist_L hand_L and forearm_twist_L get translation keys: the glove leaves the sleeve and is carried out of frame lower-left by the right hand. Hide glove_L afterwards. The matching bare hand is fp_arms_crew.glb clip glove_off_L (same wrist path) \u2014 play both together and the bare hand is revealed as the glove slides off."
+ },
+ "framing": {
+  "about": "Where the hands are on screen as the game draws the arms: fractions of the frame, x from the left, y from the top (0.5, 0.5 = centre), measured at the grip anchors. The clips are keyed to these directly: ARMS_TUNING.framing needs no entry for any of them.",
+  "viewmodel": {
+   "fov_deg": 66,
+   "model_offset": [
+    0,
+    0.025,
+    -0.02
+   ],
+   "projection": "a point p in arm space is seen at x = 0.5 + 0.5 * p.x / (d * tan 33 * 16/9), y = 0.5 - 0.5 * (p.y + 0.025) / (d * tan 33), with d = 0.02 - p.z"
+  },
+  "rest": {
+   "clips": [
+    "idle",
+    "walk_sway"
+   ],
+   "also": "the free left hand of tool_idle, panel_pry, jumper_clip, lever_pull and lever_hold",
+   "rest_drop_m": 0.165,
+   "lateral_offset_m": 0.03,
+   "relative_to": "the first delivery, wrists at (+/-0.262, -0.166, -0.395)",
+   "finger_curl_deg": "30-40 at every joint",
+   "palm_inward_deg": 57,
+   "grips": {
+    "L": [
+     0.261,
+     0.979
+    ],
+    "R": [
+     0.737,
+     0.981
+    ]
+   },
+   "percent_of_frame_height_per_cm": 1.7
+  },
+  "walk": {
+   "clip": "walk_sway",
+   "swing_deg": 4.0,
+   "loop_seconds": 1.6,
+   "phase": "clip time = gait phase x 1.6 s; the left boot releases at 0, the right at 0.8 s; the arm opposite the swinging leg leads",
+   "grips_right_arm_forward": {
+    "L": [
+     0.277,
+     1.063
+    ],
+    "R": [
+     0.743,
+     0.932
+    ]
+   },
+   "grips_left_arm_forward": {
+    "L": [
+     0.257,
+     0.932
+    ],
+    "R": [
+     0.723,
+     1.063
+    ]
+   }
+  },
+  "haul": {
+   "lead_yf": 0.74,
+   "trail_yf": 0.882,
+   "lateral_m": 0.1,
+   "grip_depth_m": {
+    "leading": 0.485,
+    "trailing": 0.44
+   },
+   "hands_apart_m": 0.217,
+   "line_far_end": [
+    0.5,
+    0.4
+   ],
+   "haul_idle": {
+    "L": [
+     0.406,
+     0.884
+    ],
+    "R": [
+     0.584,
+     0.74
+    ]
+   },
+   "reach_L": {
+    "L": [
+     0.527,
+     0.669
+    ],
+    "R": [
+     0.586,
+     0.743
+    ]
+   },
+   "haul_L_end": {
+    "L": [
+     0.414,
+     0.74
+    ],
+    "R": [
+     0.594,
+     0.882
+    ]
+   },
+   "haul_float": {
+    "L": [
+     0.306,
+     1.038
+    ],
+    "R": [
+     0.699,
+     1.045
+    ]
+   },
+   "percent_of_frame_height_per_cm": {
+    "leading": 1.5,
+    "trailing": 1.7
+   }
+  },
+  "states": {
+   "thrust_brace": {
+    "L": [
+     0.349,
+     0.76
+    ],
+    "R": [
+     0.651,
+     0.76
+    ]
+   },
+   "hand_rest": {
+    "L": [
+     0.274,
+     0.75
+    ],
+    "R": [
+     0.733,
+     0.986
+    ]
+   },
+   "tool_idle": {
+    "L": [
+     0.261,
+     0.979
+    ],
+    "R": [
+     0.756,
+     0.706
+    ]
+   },
+   "tool_drive": {
+    "L": [
+     0.274,
+     0.761
+    ],
+    "R": [
+     0.6,
+     0.62
+    ]
+   },
+   "plug_hold": {
+    "L": [
+     0.274,
+     0.75
+    ],
+    "R": [
+     0.575,
+     0.641
+    ]
+   },
+   "panel_pry_hooked": {
+    "L": [
+     0.267,
+     0.986
+    ],
+    "R": [
+     0.611,
+     0.618
+    ]
+   },
+   "door_pull_closed": {
+    "L": [
+     0.527,
+     0.714
+    ],
+    "R": [
+     0.527,
+     0.536
+    ]
+   },
+   "reach_handle_full": {
+    "L": [
+     0.079,
+     0.784
+    ],
+    "R": [
+     0.545,
+     0.539
+    ]
+   },
+   "grab_miss_claw": {
+    "L": [
+     0.424,
+     0.577
+    ],
+    "R": [
+     0.719,
+     0.846
+    ]
+   }
+  },
+  "tuning": {
+   "how": "ARMS_TUNING.framing (game/src/player/arms/tuning.ts) takes entries {match: clip-name prefix, pitch: radians about the eye (+ = up), offset: [x, y, z] metres in arm space}; an entry rides the cross-fade of the clips it matches. A segment tunes a state by adding an entry for it.",
+   "rest_drop": "{match: \"idle\", offset: [0, -d, 0]} and the same for \"walk_\" lower the rest by d metres",
+   "lateral_offset": "one offset moves both hands the same way, so the width of the rest is keyed: REST_OUT in assets_src/fp_arms/clips_suit.py, then ./final.sh suit",
+   "haul": "{match: \"haul_\", offset: [0, dy, 0]} moves both fists; the targets above are met with no entry"
+  }
+ },
+ "sockets": {
+  "tool": {
+   "anchor": "anchor_tool_R",
+   "slot": "tool_R",
+   "clips": [
+    "tool_idle",
+    "tool_raise",
+    "tool_drive"
+   ],
+   "frame": "origin at the centre of the pistol grip, +Z = chuck axis away from the user, +Y up",
+   "attach": "no offset: tool_pgt.glb is modelled in this frame"
+  },
+  "connector": {
+   "anchor": "anchor_grip_R",
+   "slot": "grip_R",
+   "clips": [
+    "plug_reach",
+    "plug_hold",
+    "plug_seat"
+   ],
+   "frame": "+Z = the plug axis (insertion direction); the origin is 0.032 m ahead of the pinch of the thumb and the first two fingers",
+   "attach_offset_m": [
+    0,
+    0,
+    0.035
+   ],
+   "attach": "held by its BOOT: attach the connector with its axis on +Z and its mating face at the origin, then move it +0.035 m along +Z (prologue1 puzzle.holdOffset). The fingers are then on the boot and the collar shows above the thumb; the mating face is at origin + 0.035 Z, which is the point to bring to the socket."
+  },
+  "jumper": {
+   "anchor": "anchor_grip_R",
+   "slot": "grip_R",
+   "clips": [
+    "jumper_clip"
+   ],
+   "frame": "origin at the jaw of the pinched clip, +Z along the clip toward the jaw"
+  },
+  "line": {
+   "anchor": "anchor_grip_L / anchor_grip_R",
+   "clips": [
+    "haul_idle",
+    "haul_L",
+    "haul_R",
+    "haul_fumble",
+    "haul_fumble_R"
+   ],
+   "frame": "origin where the line passes through the fist, +Z along it from the little finger to the thumb side",
+   "note": "the line runs anchor -> leading fist -> trailing fist -> reel; see usage.haul"
+  },
+  "bar": {
+   "anchor": "anchor_grip_R (door_pull: also anchor_grip_L)",
+   "clips": [
+    "reach_handle",
+    "grab_handle",
+    "hang_handle",
+    "lever_pull",
+    "lever_hold",
+    "door_pull"
+   ],
+   "frame": "origin on the axis of the gripped bar, +Z along the bar, +Y out of the palm"
+  },
+  "rest": {
+   "anchor": "anchor_grip_L",
+   "clips": [
+    "hand_rest",
+    "tool_raise",
+    "tool_drive",
+    "plug_reach",
+    "plug_hold",
+    "plug_seat",
+    "latch_flip"
+   ],
+   "frame": "origin at the contact point of the palm, +Y into the surface, +Z along the edge (toward the body centre)",
+   "pin": "to put the palm on a real edge, aimAt(refs.rest_point of hand_rest, the world point) while the right hand is not aimed elsewhere: one aim moves both arms"
+  }
+ }
+}

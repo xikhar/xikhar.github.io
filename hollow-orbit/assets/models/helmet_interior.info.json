@@ -1,0 +1,115 @@
+{
+ "nodes": [
+  "helmet_rim",
+  "helmet_rim_soft",
+  "visor_glass",
+  "hud_surface",
+  "anchor_lamp_L",
+  "anchor_lamp_R"
+ ],
+ "anchors": {
+  "anchor_lamp_L": [
+   -0.15,
+   0.035,
+   -0.075
+  ],
+  "anchor_lamp_R": [
+   0.15,
+   0.035,
+   -0.075
+  ]
+ },
+ "origins": {
+  "helmet_rim": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "helmet_rim_soft": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "visor_glass": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "hud_surface": [
+   0.0,
+   0.0,
+   -0.0
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -0.3857,
+   -0.2798,
+   -0.6
+  ],
+  "max": [
+   0.3857,
+   0.2798,
+   0.186
+  ]
+ },
+ "triangles": 39270,
+ "materials": [
+  "helmet_metal",
+  "helmet_frame_graphite",
+  "helmet_fabric",
+  "helmet_polymer",
+  "helmet_rubber",
+  "helmet_ring_anodised",
+  "helmet_orange",
+  "helmet_stitch",
+  "helmet_ink",
+  "helmet_marking",
+  "helmet_foam",
+  "helmet_tube_clear",
+  "em_helmet_led_L",
+  "em_helmet_led_R",
+  "helmet_rim_soft",
+  "visor_glass",
+  "hud_surface"
+ ],
+ "units": "metres",
+ "up": "+Y",
+ "camera": {
+  "eye": [
+   0,
+   0,
+   0
+  ],
+  "forward": [
+   0,
+   0,
+   -1
+  ],
+  "up": [
+   0,
+   1,
+   0
+  ],
+  "fov_vertical_deg": 70,
+  "aspect": "16:9",
+  "near_max": 0.05
+ },
+ "visor_glass": {
+  "sphere_centre": [
+   0.0,
+   0.0,
+   0.03
+  ],
+  "radius": 0.17,
+  "uv": "0..1 = +-1.10 x the 16:9 frame at 70 deg vfov; frame edges at uv 0.045/0.955"
+ },
+ "hud_surface": {
+  "radius": 0.6,
+  "h_span_deg": 80,
+  "v_span_deg": 50,
+  "uv": "u 0 left .. 1 right, v 0 bottom .. 1 top"
+ },
+ "notes": "helmet_rim carries baked interior light in COLOR_0 (multiplies base colour). Emissive: em_helmet_led_L, em_helmet_led_R. helmet_rim_soft = alpha-gradient defocus band just inside the opening: alpha blend, depthWrite false, draw after helmet_rim."
+}

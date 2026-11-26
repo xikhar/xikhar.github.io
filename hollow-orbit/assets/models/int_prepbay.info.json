@@ -1,0 +1,200 @@
+{
+ "name": "int_prepbay",
+ "frame": "TECH 4.2 interior frame, +Y up, metres",
+ "nodes": [
+  "door_bay_L",
+  "door_bay_L_far",
+  "door_bay_R",
+  "door_bay_R_far",
+  "shell_prepbay",
+  "col_floor_prepbay",
+  "col_walls_prepbay",
+  "col_door_bay",
+  "anchor_light_prepbay_1",
+  "anchor_light_prepbay_2",
+  "anchor_light_prepbay_3",
+  "anchor_light_prepbay_4",
+  "anchor_light_prepbay_5"
+ ],
+ "node_details": [
+  {
+   "name": "door_bay_L",
+   "lightmap": "prepbay",
+   "pivot": [
+    -0.36,
+    0.0,
+    12.4
+   ],
+   "parent": null,
+   "triangles": 870,
+   "materials": [
+    "paint_satin",
+    "steel"
+   ],
+   "motion": "slide",
+   "open_offset": [
+    -0.72,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "door_bay_L_far",
+   "lightmap": "corridor",
+   "pivot": [
+    -0.36,
+    0.0,
+    12.4
+   ],
+   "parent": "door_bay_L",
+   "triangles": 618,
+   "materials": [
+    "paint_satin",
+    "steel"
+   ]
+  },
+  {
+   "name": "door_bay_R",
+   "lightmap": "prepbay",
+   "pivot": [
+    0.36,
+    0.0,
+    12.4
+   ],
+   "parent": null,
+   "triangles": 870,
+   "materials": [
+    "paint_satin",
+    "steel"
+   ],
+   "motion": "slide",
+   "open_offset": [
+    0.72,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "door_bay_R_far",
+   "lightmap": "corridor",
+   "pivot": [
+    0.36,
+    0.0,
+    12.4
+   ],
+   "parent": "door_bay_R",
+   "triangles": 618,
+   "materials": [
+    "paint_satin",
+    "steel"
+   ]
+  },
+  {
+   "name": "shell_prepbay",
+   "lightmap": "prepbay",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent": null,
+   "triangles": 35506,
+   "materials": [
+    "paint_powder",
+    "deck",
+    "steel",
+    "tread",
+    "grime",
+    "decals",
+    "paint_satin",
+    "paint_gloss",
+    "frame",
+    "em_wall_prepbay",
+    "em_floor_guide",
+    "perf",
+    "perf_cut",
+    "em_ceiling_prepbay",
+    "rubber"
+   ]
+  }
+ ],
+ "anchors": {
+  "anchor_light_prepbay_1": [
+   -0.93,
+   3.0,
+   6.16
+  ],
+  "anchor_light_prepbay_2": [
+   0.93,
+   3.0,
+   6.16
+  ],
+  "anchor_light_prepbay_3": [
+   -0.93,
+   3.0,
+   10.24
+  ],
+  "anchor_light_prepbay_4": [
+   0.93,
+   3.0,
+   10.24
+  ],
+  "anchor_light_prepbay_5": [
+   0.0,
+   3.0,
+   4.5
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -2.53,
+   -0.03,
+   4.095
+  ],
+  "max": [
+   2.5724,
+   3.34,
+   12.514
+  ]
+ },
+ "triangles": 38482,
+ "draw_calls": 23,
+ "materials": [
+  "decals",
+  "deck",
+  "em_ceiling_prepbay",
+  "em_floor_guide",
+  "em_wall_prepbay",
+  "frame",
+  "grime",
+  "paint_gloss",
+  "paint_powder",
+  "paint_satin",
+  "paint_satin_far",
+  "perf",
+  "perf_cut",
+  "rubber",
+  "steel",
+  "steel_far",
+  "tread"
+ ],
+ "colliders": [
+  "col_door_bay",
+  "col_floor_prepbay",
+  "col_walls_prepbay"
+ ],
+ "lightmaps": {
+  "main": "textures/lightmaps/prepbay_lm_main.png",
+  "accent": "textures/lightmaps/prepbay_lm_accent.png",
+  "resolution": 2048,
+  "uv_set": "TEXCOORD_1",
+  "encoding": "pow(clamp(L/4,0,1),1/2.2), L = linear radiance of a white diffuse surface",
+  "texels_per_m": 98.5,
+  "strips": 593,
+  "strip_band_px": 64,
+  "props_in_ao": false,
+  "props_in_main": true,
+  "props_in_accent": true
+ }
+}

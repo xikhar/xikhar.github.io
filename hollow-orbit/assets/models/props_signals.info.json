@@ -1,0 +1,374 @@
+{
+ "nodes": [
+  "anchor_recorder",
+  "anchor_ref_cam_signals",
+  "anchor_roster",
+  "anchor_tally",
+  "cards",
+  "chair_blue",
+  "chair_blue_dust",
+  "chair_coral",
+  "chair_coral_dust",
+  "chair_violet",
+  "chair_violet_dust",
+  "col_chair_blue",
+  "col_chair_coral",
+  "col_chair_violet",
+  "col_console_desk_1",
+  "col_console_desk_2",
+  "col_console_desk_3",
+  "col_kitchenette",
+  "col_kitchenette_shelf",
+  "col_rack_1",
+  "col_rack_2",
+  "col_rack_3",
+  "col_waste_bin",
+  "console_desk",
+  "desk_tally",
+  "dust_drifts",
+  "dust_flakes",
+  "dust_top",
+  "em_screen_recorder",
+  "em_screen_wall_1",
+  "em_screen_wall_2",
+  "em_screen_ws_1",
+  "em_screen_ws_2",
+  "em_screen_ws_3",
+  "fern_dead",
+  "headphones",
+  "jacket",
+  "kettle",
+  "kitchenette",
+  "mug_1",
+  "mug_2",
+  "mug_3",
+  "note_dev_1",
+  "note_dev_2",
+  "note_dev_3",
+  "note_roster",
+  "rack_1",
+  "rack_2",
+  "rack_3",
+  "rack_glass",
+  "rack_leds",
+  "recorder_imani",
+  "tablet"
+ ],
+ "anchors": {
+  "anchor_recorder": [
+   -18.06,
+   0.78,
+   20.44
+  ],
+  "anchor_tally": [
+   -18.1,
+   0.735,
+   20.1725
+  ],
+  "anchor_ref_cam_signals": [
+   -18.0,
+   1.5,
+   16.05
+  ],
+  "anchor_roster": [
+   -15.0,
+   1.52,
+   18.35
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -21.0,
+   0.0,
+   16.002
+  ],
+  "max": [
+   -15.0,
+   2.346,
+   21.0
+  ]
+ },
+ "triangles": 145124,
+ "draw_calls": 44,
+ "materials": [
+  "em_led_rack",
+  "em_led_rack_amber",
+  "em_screen_recorder",
+  "em_screen_wall_1",
+  "em_screen_wall_2",
+  "em_screen_ws_1",
+  "em_screen_ws_2",
+  "em_screen_ws_3",
+  "m_col",
+  "m_desk_top",
+  "m_dust",
+  "m_fabric",
+  "m_fern_dead",
+  "m_glass_dusty",
+  "m_props_hero",
+  "m_props_main"
+ ],
+ "node_positions": {
+  "console_desk": [
+   -18.0,
+   0.0,
+   21.0
+  ],
+  "em_screen_ws_1": [
+   -16.7824,
+   1.1748,
+   20.6155
+  ],
+  "em_screen_ws_2": [
+   -18.05,
+   1.1895,
+   20.6128
+  ],
+  "em_screen_ws_3": [
+   -19.2748,
+   1.1654,
+   20.6147
+  ],
+  "em_screen_wall_1": [
+   -16.525,
+   1.8575,
+   20.954
+  ],
+  "em_screen_wall_2": [
+   -18.525,
+   1.8575,
+   20.954
+  ],
+  "chair_violet": [
+   -16.95,
+   0.0,
+   19.3
+  ],
+  "chair_blue": [
+   -18.05,
+   0.0,
+   19.42
+  ],
+  "chair_coral": [
+   -19.22,
+   0.0,
+   19.72
+  ],
+  "rack_1": [
+   -20.6,
+   0.0,
+   18.8
+  ],
+  "rack_2": [
+   -20.6,
+   0.0,
+   19.6
+  ],
+  "rack_3": [
+   -20.6,
+   0.0,
+   20.4
+  ],
+  "rack_glass": [
+   -20.2,
+   0.0,
+   19.6
+  ],
+  "rack_leds": [
+   -20.2,
+   0.0,
+   19.6
+  ],
+  "kitchenette": [
+   -20.675,
+   0.0,
+   17.3
+  ],
+  "kettle": [
+   -20.715,
+   0.92,
+   17.64
+  ],
+  "mug_1": [
+   -20.605,
+   0.912,
+   16.94
+  ],
+  "mug_2": [
+   -20.635,
+   0.912,
+   16.81
+  ],
+  "mug_3": [
+   -16.36,
+   0.76,
+   20.47
+  ],
+  "recorder_imani": [
+   -18.06,
+   0.76,
+   20.44
+  ],
+  "em_screen_recorder": [
+   -18.06,
+   0.76,
+   20.44
+  ],
+  "note_dev_1": [
+   -16.5783,
+   0.9775,
+   20.5614
+  ],
+  "note_dev_2": [
+   -16.6722,
+   0.9775,
+   20.5763
+  ],
+  "note_dev_3": [
+   -16.9833,
+   0.9775,
+   20.6256
+  ],
+  "note_roster": [
+   -15.0,
+   1.52,
+   18.35
+  ],
+  "cards": [
+   -19.28,
+   0.76,
+   20.4
+  ],
+  "tablet": [
+   -18.42,
+   0.76,
+   20.34
+  ],
+  "headphones": [
+   -17.14,
+   0.76,
+   20.33
+  ],
+  "desk_tally": [
+   -18.1,
+   0.728,
+   20.1725
+  ],
+  "fern_dead": [
+   -15.55,
+   0.76,
+   20.25
+  ],
+  "dust_drifts": [
+   -18.0,
+   0.0,
+   18.5
+  ],
+  "dust_flakes": [
+   -18.0,
+   0.0,
+   18.5
+  ],
+  "jacket": [
+   -19.22,
+   0.0,
+   19.72
+  ],
+  "col_console_desk_1": [
+   -17.45,
+   0.0,
+   20.6
+  ],
+  "col_console_desk_2": [
+   -15.4,
+   0.0,
+   18.7
+  ],
+  "col_console_desk_3": [
+   -16.025,
+   0.0,
+   19.975
+  ],
+  "col_rack_1": [
+   -20.6,
+   0.0,
+   18.8
+  ],
+  "col_rack_2": [
+   -20.6,
+   0.0,
+   19.6
+  ],
+  "col_rack_3": [
+   -20.6,
+   0.0,
+   20.4
+  ],
+  "col_kitchenette": [
+   -20.675,
+   0.0,
+   17.3
+  ],
+  "col_kitchenette_shelf": [
+   -20.83,
+   1.41,
+   17.3
+  ],
+  "col_waste_bin": [
+   -17.5,
+   0.0,
+   19.98
+  ],
+  "col_chair_violet": [
+   -16.95,
+   0.0,
+   19.3
+  ],
+  "col_chair_blue": [
+   -18.05,
+   0.0,
+   19.42
+  ],
+  "col_chair_coral": [
+   -19.22,
+   0.0,
+   19.72
+  ],
+  "dust_top": [
+   -18.0,
+   0.0,
+   18.5
+  ],
+  "chair_violet_dust": [
+   -16.95,
+   0.0,
+   19.3
+  ],
+  "chair_blue_dust": [
+   -18.05,
+   0.0,
+   19.42
+  ],
+  "chair_coral_dust": [
+   -19.22,
+   0.0,
+   19.72
+  ]
+ },
+ "collision": [
+  "col_chair_blue",
+  "col_chair_coral",
+  "col_chair_violet",
+  "col_console_desk_1",
+  "col_console_desk_2",
+  "col_console_desk_3",
+  "col_kitchenette",
+  "col_kitchenette_shelf",
+  "col_rack_1",
+  "col_rack_2",
+  "col_rack_3",
+  "col_waste_bin"
+ ],
+ "frame": "TECH 4.2 interior frame, metres, +Y up"
+}

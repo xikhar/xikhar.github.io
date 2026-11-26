@@ -1,0 +1,37 @@
+{
+ "nodes": [
+  "suit_helmet"
+ ],
+ "anchors": {},
+ "origins": {
+  "suit_helmet": [
+   0.0,
+   0.0,
+   -0.0
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -0.1918,
+   0.0,
+   -0.2099
+  ],
+  "max": [
+   0.1982,
+   0.4078,
+   0.1527
+  ]
+ },
+ "triangles": 22824,
+ "materials": [
+  "helmet_shell",
+  "visor_gold",
+  "helmet_liner",
+  "em_suit_lamp"
+ ],
+ "units": "metres",
+ "up": "+Y",
+ "notes": "origin = centre of the neck ring mating plane (ring bottom); visor faces +Z; neck opening is open with an interior liner; em_suit_lamp = 4 LED lenses (2 per temple housing).",
+ "source": "tripo3d/h3.1/multiview-to-3d from refs/suit_parts/helmet_{front,left,back,right}.png"
+}

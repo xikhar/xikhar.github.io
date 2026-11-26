@@ -1,0 +1,286 @@
+{
+ "name": "int_corridor",
+ "frame": "TECH 4.2 interior frame, +Y up, metres",
+ "nodes": [
+  "door_c1",
+  "door_c2",
+  "door_c2_far",
+  "door_c3",
+  "door_docks",
+  "door_hub_L",
+  "door_hub_R",
+  "shell_corridor",
+  "col_floor_corridor",
+  "col_walls_corridor",
+  "col_door_c2",
+  "col_door_hub",
+  "anchor_light_corridor_1",
+  "anchor_light_corridor_2",
+  "anchor_light_corridor_3",
+  "anchor_light_corridor_4",
+  "anchor_light_corridor_5",
+  "anchor_light_corridor_6",
+  "anchor_light_corridor_7",
+  "anchor_light_corridor_8"
+ ],
+ "node_details": [
+  {
+   "name": "door_c1",
+   "lightmap": "corridor",
+   "pivot": [
+    -4.0,
+    0.0,
+    15.7
+   ],
+   "parent": null,
+   "triangles": 226,
+   "materials": [
+    "paint_satin"
+   ]
+  },
+  {
+   "name": "door_c2",
+   "lightmap": "corridor",
+   "pivot": [
+    -18.0,
+    0.0,
+    15.715
+   ],
+   "parent": null,
+   "triangles": 968,
+   "materials": [
+    "paint_satin",
+    "steel",
+    "decals"
+   ],
+   "motion": "slide",
+   "open_offset": [
+    1.3,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "door_c2_far",
+   "lightmap": "signals",
+   "pivot": [
+    -18.0,
+    0.0,
+    15.715
+   ],
+   "parent": "door_c2",
+   "triangles": 278,
+   "materials": [
+    "paint_satin"
+   ]
+  },
+  {
+   "name": "door_c3",
+   "lightmap": "corridor",
+   "pivot": [
+    -12.0,
+    0.0,
+    12.5
+   ],
+   "parent": null,
+   "triangles": 226,
+   "materials": [
+    "paint_satin"
+   ]
+  },
+  {
+   "name": "door_docks",
+   "lightmap": "corridor",
+   "pivot": [
+    8.14,
+    0.0,
+    14.1
+   ],
+   "parent": null,
+   "triangles": 306,
+   "materials": [
+    "frame"
+   ]
+  },
+  {
+   "name": "door_hub_L",
+   "lightmap": "corridor",
+   "pivot": [
+    -22.18,
+    0.0,
+    14.5
+   ],
+   "parent": null,
+   "triangles": 608,
+   "materials": [
+    "frame"
+   ],
+   "motion": "slide",
+   "open_offset": [
+    0,
+    0,
+    0.8
+   ]
+  },
+  {
+   "name": "door_hub_R",
+   "lightmap": "corridor",
+   "pivot": [
+    -22.18,
+    0.0,
+    13.7
+   ],
+   "parent": null,
+   "triangles": 608,
+   "materials": [
+    "frame"
+   ],
+   "motion": "slide",
+   "open_offset": [
+    0,
+    0,
+    -0.8
+   ]
+  },
+  {
+   "name": "shell_corridor",
+   "lightmap": "corridor",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent": null,
+   "triangles": 112456,
+   "materials": [
+    "paint_powder",
+    "deck",
+    "tread",
+    "steel",
+    "grime",
+    "decals",
+    "em_ceiling_corridor_1",
+    "frame",
+    "em_floor_guide",
+    "em_ceiling_corridor_2",
+    "em_ceiling_corridor_3",
+    "em_ceiling_corridor_4",
+    "em_ceiling_corridor_5",
+    "em_ceiling_corridor_6",
+    "em_ceiling_corridor_7",
+    "paint_satin",
+    "paint_gloss",
+    "perf",
+    "perf_cut",
+    "em_ceiling_corridor_8",
+    "rubber",
+    "em_status_docks",
+    "em_status_hub",
+    "em_hub_seam"
+   ]
+  }
+ ],
+ "anchors": {
+  "anchor_light_corridor_1": [
+   6.575,
+   3.0,
+   14.1
+  ],
+  "anchor_light_corridor_2": [
+   3.0,
+   3.0,
+   14.1
+  ],
+  "anchor_light_corridor_3": [
+   -1.0,
+   3.0,
+   14.1
+  ],
+  "anchor_light_corridor_4": [
+   -5.0,
+   3.0,
+   14.1
+  ],
+  "anchor_light_corridor_5": [
+   -9.0,
+   3.0,
+   14.1
+  ],
+  "anchor_light_corridor_6": [
+   -13.0,
+   3.0,
+   14.1
+  ],
+  "anchor_light_corridor_7": [
+   -17.0,
+   3.0,
+   14.1
+  ],
+  "anchor_light_corridor_8": [
+   -20.575,
+   3.0,
+   14.1
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -22.22,
+   -0.03,
+   12.385
+  ],
+  "max": [
+   8.205,
+   3.34,
+   15.7595
+  ]
+ },
+ "triangles": 115676,
+ "draw_calls": 33,
+ "materials": [
+  "decals",
+  "deck",
+  "em_ceiling_corridor_1",
+  "em_ceiling_corridor_2",
+  "em_ceiling_corridor_3",
+  "em_ceiling_corridor_4",
+  "em_ceiling_corridor_5",
+  "em_ceiling_corridor_6",
+  "em_ceiling_corridor_7",
+  "em_ceiling_corridor_8",
+  "em_floor_guide",
+  "em_hub_seam",
+  "em_status_docks",
+  "em_status_hub",
+  "frame",
+  "grime",
+  "paint_gloss",
+  "paint_powder",
+  "paint_satin",
+  "paint_satin_far",
+  "perf",
+  "perf_cut",
+  "rubber",
+  "steel",
+  "tread"
+ ],
+ "colliders": [
+  "col_door_c2",
+  "col_door_hub",
+  "col_floor_corridor",
+  "col_walls_corridor"
+ ],
+ "lightmaps": {
+  "main": "textures/lightmaps/corridor_lm_main.png",
+  "accent": "textures/lightmaps/corridor_lm_accent.png",
+  "resolution": 2048,
+  "uv_set": "TEXCOORD_1",
+  "encoding": "pow(clamp(L/4,0,1),1/2.2), L = linear radiance of a white diffuse surface",
+  "texels_per_m": 48.2,
+  "strips": 1713,
+  "strip_band_px": 184,
+  "props_in_ao": false,
+  "props_in_main": true,
+  "props_in_accent": true
+ }
+}

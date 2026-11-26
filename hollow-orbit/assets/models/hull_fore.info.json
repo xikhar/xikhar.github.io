@@ -1,0 +1,368 @@
+{
+ "nodes": [
+  "anchor_gate_inside",
+  "anchor_player_start",
+  "anchor_rcs_nozzle_1_1",
+  "anchor_rcs_nozzle_1_2",
+  "anchor_rcs_nozzle_1_3",
+  "anchor_rcs_nozzle_1_4",
+  "anchor_rcs_nozzle_2_1",
+  "anchor_rcs_nozzle_2_2",
+  "anchor_rcs_nozzle_2_3",
+  "anchor_rcs_nozzle_2_4",
+  "anchor_rcs_nozzle_3_1",
+  "anchor_rcs_nozzle_3_2",
+  "anchor_rcs_nozzle_3_3",
+  "anchor_rcs_nozzle_3_4",
+  "anchor_tether",
+  "annex",
+  "col_annex",
+  "col_deck",
+  "col_gate_frame",
+  "col_rails",
+  "col_relay",
+  "col_track_rails",
+  "col_walkplate",
+  "deck",
+  "deck_camera_mast",
+  "deck_lamp_1",
+  "deck_lamp_2",
+  "gate4_door",
+  "gate4_floodlight",
+  "gate4_frame",
+  "gate4_handle",
+  "gate4_lever",
+  "gate4_panel",
+  "gate4_panel_cover",
+  "gate4_terminal_1",
+  "gate4_terminal_2",
+  "gate4_terminal_3",
+  "gate4_terminal_4",
+  "gate4_terminal_5",
+  "gate4_terminal_6",
+  "lock_stub",
+  "rails",
+  "rcs_quad_1",
+  "rcs_quad_2",
+  "rcs_quad_3",
+  "relay_bolt_1",
+  "relay_bolt_2",
+  "relay_bolt_3",
+  "relay_bolt_4",
+  "relay_cable_root_amber",
+  "relay_cable_root_blue",
+  "relay_cable_root_green",
+  "relay_cable_root_white",
+  "relay_latch_1",
+  "relay_latch_2",
+  "relay_latch_3",
+  "relay_latch_4",
+  "relay_led",
+  "relay_panel",
+  "relay_plug_amber",
+  "relay_plug_amber_cable",
+  "relay_plug_blue",
+  "relay_plug_blue_cable",
+  "relay_plug_green",
+  "relay_plug_green_cable",
+  "relay_plug_white",
+  "relay_plug_white_cable",
+  "relay_socket_j1",
+  "relay_socket_j2",
+  "relay_socket_j3",
+  "relay_socket_j4",
+  "relay_unit",
+  "walkplate"
+ ],
+ "anchors": {
+  "relay_socket_j1": [
+   -0.15,
+   1.045,
+   -22.786
+  ],
+  "relay_socket_j2": [
+   -0.05,
+   1.045,
+   -22.786
+  ],
+  "relay_socket_j3": [
+   0.05,
+   1.045,
+   -22.786
+  ],
+  "relay_socket_j4": [
+   0.15,
+   1.045,
+   -22.786
+  ],
+  "relay_plug_blue_cable": [
+   0.1161,
+   0.8209,
+   -22.6813
+  ],
+  "relay_cable_root_blue": [
+   0.15,
+   0.761,
+   -22.776
+  ],
+  "relay_plug_white_cable": [
+   -0.05,
+   0.942,
+   -22.7062
+  ],
+  "relay_cable_root_white": [
+   -0.05,
+   0.761,
+   -22.776
+  ],
+  "relay_plug_amber_cable": [
+   -0.1584,
+   0.8171,
+   -22.6682
+  ],
+  "relay_cable_root_amber": [
+   -0.15,
+   0.761,
+   -22.776
+  ],
+  "relay_plug_green_cable": [
+   0.0665,
+   0.7782,
+   -22.6937
+  ],
+  "relay_cable_root_green": [
+   0.05,
+   0.761,
+   -22.776
+  ],
+  "gate4_terminal_1": [
+   -1.345,
+   1.286,
+   -0.054
+  ],
+  "gate4_terminal_2": [
+   -1.387,
+   1.286,
+   -0.054
+  ],
+  "gate4_terminal_3": [
+   -1.429,
+   1.286,
+   -0.054
+  ],
+  "gate4_terminal_4": [
+   -1.471,
+   1.286,
+   -0.054
+  ],
+  "gate4_terminal_5": [
+   -1.513,
+   1.286,
+   -0.054
+  ],
+  "gate4_terminal_6": [
+   -1.555,
+   1.286,
+   -0.054
+  ],
+  "anchor_tether": [
+   1.25,
+   1.1,
+   -0.15
+  ],
+  "anchor_gate_inside": [
+   0.0,
+   0.0,
+   1.8
+  ],
+  "anchor_rcs_nozzle_1_1": [
+   3.6,
+   5.232,
+   0.55
+  ],
+  "anchor_rcs_nozzle_1_2": [
+   3.238,
+   4.87,
+   0.55
+  ],
+  "anchor_rcs_nozzle_1_3": [
+   3.962,
+   4.87,
+   0.55
+  ],
+  "anchor_rcs_nozzle_1_4": [
+   3.6,
+   4.87,
+   0.188
+  ],
+  "anchor_rcs_nozzle_2_1": [
+   -5.2,
+   0.732,
+   -29.15
+  ],
+  "anchor_rcs_nozzle_2_2": [
+   -5.562,
+   0.37,
+   -29.15
+  ],
+  "anchor_rcs_nozzle_2_3": [
+   -4.838,
+   0.37,
+   -29.15
+  ],
+  "anchor_rcs_nozzle_2_4": [
+   -5.2,
+   0.37,
+   -29.512
+  ],
+  "anchor_rcs_nozzle_3_1": [
+   5.2,
+   0.732,
+   -29.15
+  ],
+  "anchor_rcs_nozzle_3_2": [
+   4.838,
+   0.37,
+   -29.15
+  ],
+  "anchor_rcs_nozzle_3_3": [
+   5.562,
+   0.37,
+   -29.15
+  ],
+  "anchor_rcs_nozzle_3_4": [
+   5.2,
+   0.37,
+   -29.512
+  ],
+  "anchor_player_start": [
+   0.0,
+   0.0,
+   -15.5
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -6.05,
+   -1.21,
+   -30.045
+  ],
+  "max": [
+   6.05,
+   7.3,
+   10.0
+  ]
+ },
+ "triangles": 239485,
+ "triangles_collision": 252,
+ "draw_calls": 60,
+ "materials": [
+  "bare_alu",
+  "beta_cloth",
+  "col",
+  "dark_steel",
+  "decals",
+  "em_deck_light",
+  "em_gate_flood",
+  "em_gate_panel",
+  "em_gate_status",
+  "em_relay_led",
+  "em_strip_cyan",
+  "em_strip_magenta",
+  "gate_hero",
+  "gold",
+  "grip_plate",
+  "hull_panel",
+  "paint",
+  "relay_hero"
+ ],
+ "motion": {
+  "gate4_door": {
+   "type": "slide",
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "closed": 0.0,
+   "open": 1.25,
+   "unit": "m",
+   "space": "node parent (world)"
+  },
+  "gate4_panel_cover": {
+   "type": "hinge",
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "closed_deg": 0.0,
+   "open_deg": -110.0,
+   "space": "node local"
+  },
+  "gate4_lever": {
+   "type": "hinge",
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "closed_deg": 0.0,
+   "open_deg": -60.0,
+   "space": "node local"
+  },
+  "relay_panel": {
+   "type": "hinge",
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "closed_deg": 0.0,
+   "open_deg": 115.0,
+   "space": "node local"
+  },
+  "relay_bolt_1..4": {
+   "type": "spin",
+   "axis": [
+    0,
+    0,
+    1
+   ],
+   "space": "node local",
+   "note": "local +Z points out of the door; back out along +Z up to 0.012 m"
+  },
+  "relay_latch_1..4": {
+   "type": "hinge",
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "closed_deg": 0.0,
+   "open_deg": -66.0,
+   "space": "node local",
+   "note": "geometry is modelled closed; the GLB poses latches 1,3,4 open (node rotation = open) and latch 2 closed"
+  },
+  "relay_plug_*": {
+   "seated": "plug world matrix = socket world matrix * RotY(180deg); plug local +Z = insertion direction, -Y = cable exit",
+   "note": "white is exported seated in J2; blue/amber/green float unplugged in the lower bay, inside the closed-door envelope. Target map: blue->J1, white->J2, amber->J3, green->J4. Harness order along the clamp bar (relay_cable_root_*): amber, white, green, blue, so every loose line hangs under a wrong socket. relay_plug_<colour>_cable (child empty) = cable exit of the plug, +Z along the cable."
+  },
+  "gate4_terminal_1..6": {
+   "order": [
+    "BUS A",
+    "BUS B",
+    "ACT+",
+    "ACT-",
+    "GND",
+    "SENSE"
+   ],
+   "note": "empties on the screw heads, +Z out of the panel (toward the deck)"
+  },
+  "em_gate_panel": {
+   "note": "the amber display sits in gate4_panel_cover (it swings away with the cover)"
+  }
+ },
+ "frame": "TECH 4.1: +Y deck normal, -Z toward relay unit, metres"
+}

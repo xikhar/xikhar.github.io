@@ -1,0 +1,164 @@
+{
+ "nodes": [
+  "anchor_dock_node",
+  "anchor_hero_set",
+  "anchor_mast_base",
+  "anchor_mast_top",
+  "anchor_reactor",
+  "anchor_ring_hub",
+  "collar_lod",
+  "mast_dish_main",
+  "comms_mast",
+  "nav_lights",
+  "radiators",
+  "ring_spoke_1",
+  "ring_spoke_2",
+  "ring_spoke_3",
+  "ring_spoke_4",
+  "ring_spoke_5",
+  "ring_spoke_6",
+  "windows_ring_1",
+  "windows_ring_2",
+  "windows_ring_3",
+  "windows_ring_4",
+  "windows_ring_5",
+  "windows_ring_6",
+  "windows_spokes",
+  "ring",
+  "solar_wings",
+  "collar_dish_main",
+  "spine",
+  "windows_spine"
+ ],
+ "anchors": {
+  "anchor_hero_set": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "anchor_ring_hub": [
+   0.0,
+   -60.0,
+   -650.0
+  ],
+  "anchor_mast_top": [
+   0.0,
+   220.0,
+   16.2
+  ],
+  "anchor_mast_base": [
+   0.0,
+   -0.4,
+   16.2
+  ],
+  "anchor_dock_node": [
+   0.0,
+   -60.0,
+   101.0
+  ],
+  "anchor_reactor": [
+   0.0,
+   -60.0,
+   -1251.0
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -329.495,
+   -400.786,
+   -1626.45
+  ],
+  "max": [
+   329.494,
+   280.786,
+   130.3
+  ]
+ },
+ "triangles": 293438,
+ "draw_calls": 37,
+ "materials": [
+  "hull_panel",
+  "metal_gold",
+  "truss_paint",
+  "em_nav_light",
+  "radiator",
+  "em_radiator_edge",
+  "em_window_ring_1",
+  "em_window_ring_2",
+  "em_window_ring_3",
+  "em_window_ring_4",
+  "em_window_ring_5",
+  "em_window_ring_6",
+  "em_window_spokes",
+  "decals",
+  "solar_cells",
+  "hull_blanket",
+  "em_window_spine"
+ ],
+ "frame": "TECH 4.1 EVA frame: metres, +Y up, spine axis parallel to Z through (0,-30), aft = -Z",
+ "ring": {
+  "node": "ring",
+  "origin": [
+   0.0,
+   -60.0,
+   -650.0
+  ],
+  "spin_axis_local": [
+   0,
+   0,
+   1
+  ],
+  "rim_centre_radius": 300.0,
+  "spoke_angles_deg_about_z_from_x": [
+   90,
+   150,
+   210,
+   270,
+   330,
+   390
+  ],
+  "arcs": "windows_ring_k / em_window_ring_k covers the rim from spoke k to spoke k+1 (increasing angle)"
+ },
+ "windows": {
+  "counts": {
+   "windows_ring_1": 2006,
+   "windows_ring_2": 2291,
+   "windows_ring_3": 2533,
+   "windows_ring_4": 2062,
+   "windows_ring_5": 2249,
+   "windows_ring_6": 2310,
+   "windows_spokes": 4564,
+   "windows_spine": 2785
+  },
+  "total": 20800,
+  "color_0": "R = random 0-1 (light when below threshold), G = normalised light-travel distance, B = random phase",
+  "g_ring_max_m": 457.08,
+  "g_ring": "hub/spokes: radius / g_ring_max_m; rim: (300 + 300*angle_to_nearest_spoke) / g_ring_max_m",
+  "g_spine_max_m": 780.0,
+  "g_spine": "abs(z + 650) / g_spine_max_m"
+ },
+ "structure_color_0": "paint tint x baked ambient occlusion (multiplies base colour)",
+ "nav_lights": "node nav_lights, material em_nav_light, emissive texture strip red/green/white/amber; COLOR_0 = beacon colour",
+ "tiling_m": {
+  "hull_panel": 8.0,
+  "hull_blanket": 3.0,
+  "truss_paint": 4.0,
+  "solar_cells": 7.5,
+  "radiator": 10.0
+ },
+ "extra_nodes": {
+  "mast_dish_main": "the 9 m boom dish (child of comms_mast, origin at its boom mount) so the cutscene can snap it off",
+  "collar_dish_main": "the 25 m dish at the mast foot: reflector, feed, yoke (child of spine, origin at the mount pivot on top of its pedestal); plinth, platform and pedestal stay in spine",
+  "nav_lights": "all beacons in one mesh"
+ },
+ "extensions_required": [
+  "KHR_mesh_quantization"
+ ],
+ "notes": [
+  "Third pass: concept proportions (TECH 4.1 revised): axis y = -60, collar r 59.6, rim tube 65 x 50 m, hub r 70, spokes 40 x 30 m, reactor 110 m across; radiator fins trail aft to z = -1626 (overrun accepted).",
+  "Windows, bay panels and decals on far parts stand 0.5-0.9 m off the hull, near ones 2-9 cm: render with a logarithmic / reversed depth buffer or a separate far pass, or expect z-fighting beyond ~300 m at near = 0.1.",
+  "Window materials ship with emissiveFactor (1.0, 0.76, 0.45); the game drives intensity from COLOR_0.",
+  "hull_fore keep-out (x +-7, z -31...11, above y -0.4) is clear at every height; only collar_lod enters it."
+ ]
+}

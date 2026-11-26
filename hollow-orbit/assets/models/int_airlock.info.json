@@ -1,0 +1,217 @@
+{
+ "name": "int_airlock",
+ "frame": "TECH 4.2 interior frame, +Y up, metres",
+ "nodes": [
+  "door_inner",
+  "door_inner_far",
+  "door_outer",
+  "hatch_wheel",
+  "shell_airlock",
+  "col_floor_airlock",
+  "col_walls_airlock",
+  "col_door_outer",
+  "col_door_inner",
+  "anchor_light_airlock_1",
+  "anchor_light_airlock_2",
+  "anchor_light_airlock_3",
+  "anchor_light_airlock_4",
+  "anchor_spawn_airlock"
+ ],
+ "node_details": [
+  {
+   "name": "door_inner",
+   "lightmap": "airlock",
+   "pivot": [
+    -0.6,
+    0.0,
+    4.22
+   ],
+   "parent": null,
+   "triangles": 1942,
+   "materials": [
+    "paint_satin",
+    "frame",
+    "steel",
+    "glass",
+    "decals"
+   ],
+   "motion": "hinge",
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "open_angle_deg": -100,
+   "note": "rotate about +Y by a negative angle: free edge swings to +Z (into the bay)"
+  },
+  {
+   "name": "door_inner_far",
+   "lightmap": "prepbay",
+   "pivot": [
+    -0.6,
+    0.0,
+    4.22
+   ],
+   "parent": "door_inner",
+   "triangles": 1252,
+   "materials": [
+    "paint_satin",
+    "frame",
+    "steel",
+    "decals"
+   ]
+  },
+  {
+   "name": "door_outer",
+   "lightmap": "airlock",
+   "pivot": [
+    0.0,
+    0.0,
+    0.15
+   ],
+   "parent": null,
+   "triangles": 332,
+   "materials": [
+    "paint_satin",
+    "steel",
+    "decals",
+    "frame"
+   ],
+   "motion": "slide",
+   "open_offset": [
+    1.25,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "hatch_wheel",
+   "lightmap": "airlock",
+   "pivot": [
+    0.21,
+    1.02,
+    3.97
+   ],
+   "parent": "door_inner",
+   "triangles": 640,
+   "materials": [
+    "steel"
+   ],
+   "motion": "rotate",
+   "axis": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "name": "shell_airlock",
+   "lightmap": "airlock",
+   "pivot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "parent": null,
+   "triangles": 21894,
+   "materials": [
+    "paint_powder",
+    "deck_lock",
+    "steel",
+    "frame",
+    "em_strip_magenta",
+    "grime",
+    "quilt",
+    "em_strip_cyan",
+    "paint_gloss",
+    "em_strip_main",
+    "decals",
+    "paint_satin",
+    "tread",
+    "rubber"
+   ]
+  }
+ ],
+ "anchors": {
+  "anchor_light_airlock_1": [
+   -0.65,
+   2.4,
+   1.85
+  ],
+  "anchor_light_airlock_2": [
+   0.65,
+   2.4,
+   1.85
+  ],
+  "anchor_light_airlock_3": [
+   -1.025,
+   2.225,
+   1.85
+  ],
+  "anchor_light_airlock_4": [
+   1.025,
+   2.225,
+   1.85
+  ],
+  "anchor_spawn_airlock": [
+   0.0,
+   0.0,
+   1.2
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -1.2724,
+   -0.03,
+   0.135
+  ],
+  "max": [
+   1.2724,
+   2.45,
+   4.325
+  ]
+ },
+ "triangles": 26060,
+ "draw_calls": 28,
+ "materials": [
+  "decals",
+  "decals_far",
+  "deck_lock",
+  "em_strip_cyan",
+  "em_strip_magenta",
+  "em_strip_main",
+  "frame",
+  "frame_far",
+  "glass",
+  "grime",
+  "paint_gloss",
+  "paint_powder",
+  "paint_satin",
+  "paint_satin_far",
+  "quilt",
+  "rubber",
+  "steel",
+  "steel_far",
+  "tread"
+ ],
+ "colliders": [
+  "col_door_inner",
+  "col_door_outer",
+  "col_floor_airlock",
+  "col_walls_airlock"
+ ],
+ "lightmaps": {
+  "main": "textures/lightmaps/airlock_lm_main.png",
+  "accent": "textures/lightmaps/airlock_lm_accent.png",
+  "resolution": 1024,
+  "uv_set": "TEXCOORD_1",
+  "encoding": "pow(clamp(L/4,0,1),1/2.2), L = linear radiance of a white diffuse surface",
+  "texels_per_m": 57.0,
+  "strips": 220,
+  "strip_band_px": 40,
+  "props_in_ao": false,
+  "props_in_main": true,
+  "props_in_accent": true
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "nodes": [
+  "pgt_body",
+  "pgt_chuck",
+  "pgt_trigger",
+  "em_pgt_status"
+ ],
+ "anchors": {},
+ "origins": {
+  "pgt_body": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "pgt_chuck": [
+   -0.00098,
+   0.07877,
+   0.11666
+  ],
+  "pgt_trigger": [
+   0.0,
+   0.0415,
+   0.0495
+  ],
+  "em_pgt_status": [
+   0.0,
+   0.0,
+   -0.0
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -0.04,
+   -0.11,
+   -0.0638
+  ],
+  "max": [
+   0.0398,
+   0.125,
+   0.1867
+  ]
+ },
+ "triangles": 12476,
+ "materials": [
+  "pgt_body_mat",
+  "pgt_parts_mat",
+  "em_pgt_status"
+ ],
+ "units": "metres",
+ "up": "+Y",
+ "pivots": {
+  "pgt_chuck": "spins about its local Z (the chuck axis)",
+  "pgt_trigger": "rotates about its local X; squeeze = rotation.x of about -0.2 rad (blade moves toward the grip)"
+ },
+ "size_m": {
+  "length": 0.25,
+  "height": 0.235,
+  "width": 0.08
+ },
+ "notes": "origin = centre of the grip; +Z = chuck direction (away from the user); +Y up. pgt_body = Tripo mesh (pgt_body_mat, 4096) + modelled D-ring (pgt_parts_mat). em_pgt_status = alpha-blended emissive copies of the faces carrying the cyan segments (side panels, rear cap, battery); the body texture underneath is darkened so 'off' reads dark.",
+ "source": "tripo3d/h3.1/multiview-to-3d from refs/suit_parts/toolv_{front,left,back,right}.png"
+}

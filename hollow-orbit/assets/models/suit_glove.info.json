@@ -1,0 +1,41 @@
+{
+ "nodes": [
+  "suit_glove",
+  "suit_glove_L"
+ ],
+ "anchors": {},
+ "origins": {
+  "suit_glove": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "suit_glove_L": [
+   -0.18,
+   0.0,
+   -0.0
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -0.2631,
+   0.0,
+   -0.0672
+  ],
+  "max": [
+   0.0831,
+   0.3514,
+   0.047
+  ]
+ },
+ "triangles": 23240,
+ "materials": [
+  "glove_fabric",
+  "glove_liner"
+ ],
+ "units": "metres",
+ "up": "+Y",
+ "notes": "suit_glove = right glove at the origin; suit_glove_L = mirrored left glove, node origin at x=-0.18. Each node origin = centre of the wrist-ring mating plane; fingers +Y, back of hand +Z. The left glove is the original (its texture is unmirrored); the right one mirrors it.",
+ "source": "tripo3d/h3.1/multiview-to-3d from refs/suit_parts/glove_{front,left,back,right}.png"
+}

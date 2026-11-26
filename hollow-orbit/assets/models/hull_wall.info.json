@@ -1,0 +1,94 @@
+{
+ "nodes": [
+  "anchor_wall_light_1",
+  "anchor_wall_light_2",
+  "anchor_wall_light_3",
+  "anchor_wall_rcs_nozzle_1",
+  "anchor_wall_rcs_nozzle_2",
+  "anchor_wall_rcs_nozzle_3",
+  "anchor_wall_rcs_nozzle_4",
+  "col_wall",
+  "hull_wall"
+ ],
+ "anchors": {
+  "anchor_wall_light_1": [
+   3.0387,
+   1.2806,
+   -6.0
+  ],
+  "anchor_wall_light_2": [
+   3.0387,
+   1.2806,
+   -20.0
+  ],
+  "anchor_wall_light_3": [
+   3.0387,
+   1.2806,
+   -33.0
+  ],
+  "anchor_wall_rcs_nozzle_1": [
+   6.0123,
+   5.9148,
+   -32.5
+  ],
+  "anchor_wall_rcs_nozzle_2": [
+   6.1696,
+   5.5253,
+   -32.08
+  ],
+  "anchor_wall_rcs_nozzle_3": [
+   6.1696,
+   5.5253,
+   -32.92
+  ],
+  "anchor_wall_rcs_nozzle_4": [
+   5.7802,
+   5.368,
+   -32.5
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   2.78,
+   -4.59,
+   -44.6341
+  ],
+  "max": [
+   13.295,
+   7.1924,
+   -0.66
+  ]
+ },
+ "triangles": 88022,
+ "triangles_collision": 144,
+ "draw_calls": 9,
+ "materials": [
+  "bare_alu",
+  "beta_cloth",
+  "col",
+  "decals",
+  "em_wall_light",
+  "em_wall_port",
+  "gold",
+  "grime",
+  "hull_panel",
+  "paint"
+ ],
+ "frame": "TECH 4.1: +Y deck normal, -Z toward relay unit, metres; drop at the hull_fore origin",
+ "cylinder": {
+  "axis_x": 8.2,
+  "axis_y": 0.5,
+  "radius": 5.0,
+  "z_fore": -1.2,
+  "z_aft": -44.1
+ },
+ "emissive": {
+  "em_wall_light": "three caged lights, warm white",
+  "em_wall_port": "three viewports, faint interior glow"
+ },
+ "uv_sets": {
+  "TEXCOORD_0": "tiling sets / atlases",
+  "TEXCOORD_1": "baked AO of the shell (occlusionTexture)"
+ }
+}

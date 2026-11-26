@@ -1,0 +1,379 @@
+{
+ "nodes": [
+  "suit_tags",
+  "clock_mission",
+  "note_cue_card",
+  "intercom_bay",
+  "medkit_blue",
+  "bench",
+  "mug_bram",
+  "tablet",
+  "water_bottle",
+  "charger_rack",
+  "tool_cart",
+  "locker_1",
+  "locker_2",
+  "locker_3",
+  "locker_4",
+  "note_bram",
+  "jacket_folded",
+  "gloves_eva",
+  "boots_station",
+  "em_screen_suit_1",
+  "em_screen_suit_2",
+  "em_screen_suit_3",
+  "em_screen_suit_4",
+  "em_screen_suit_5",
+  "em_screen_suit_6",
+  "em_screen_clock",
+  "em_screen_intercom",
+  "mug_steam",
+  "em_screen_tablet",
+  "em_led_green",
+  "col_clock_mission",
+  "col_intercom_bay",
+  "col_medkit_blue",
+  "col_bench",
+  "col_charger_rack",
+  "col_tool_cart",
+  "col_locker_1",
+  "col_locker_2",
+  "col_locker_2_door",
+  "col_locker_3",
+  "col_locker_4",
+  "anchor_suit_frame_1",
+  "anchor_suit_frame_2",
+  "anchor_suit_frame_3",
+  "anchor_suit_frame_4",
+  "anchor_suit_frame_5",
+  "anchor_suit_frame_6"
+ ],
+ "origins": {
+  "suit_tags": [
+   -2.2,
+   2.45,
+   8.2
+  ],
+  "clock_mission": [
+   2.5,
+   1.8,
+   4.9
+  ],
+  "note_cue_card": [
+   2.5,
+   1.22,
+   4.62
+  ],
+  "intercom_bay": [
+   2.5,
+   1.45,
+   5.55
+  ],
+  "medkit_blue": [
+   2.5,
+   1.45,
+   6.0
+  ],
+  "bench": [
+   2.5,
+   0.0,
+   7.8
+  ],
+  "mug_bram": [
+   2.17,
+   0.5,
+   7.47
+  ],
+  "tablet": [
+   2.23,
+   0.5,
+   8.66
+  ],
+  "water_bottle": [
+   2.36,
+   0.5,
+   8.87
+  ],
+  "charger_rack": [
+   2.5,
+   1.42,
+   8.6
+  ],
+  "tool_cart": [
+   2.215,
+   0.0,
+   9.47
+  ],
+  "locker_1": [
+   2.5,
+   0.0,
+   10.225
+  ],
+  "locker_2": [
+   2.5,
+   0.0,
+   10.675
+  ],
+  "locker_3": [
+   2.5,
+   0.0,
+   11.125
+  ],
+  "locker_4": [
+   2.5,
+   0.0,
+   11.575
+  ],
+  "note_bram": [
+   1.9755,
+   1.47,
+   11.185
+  ],
+  "jacket_folded": [
+   2.24,
+   0.5,
+   7.0
+  ],
+  "gloves_eva": [
+   2.25,
+   0.5,
+   8.13
+  ],
+  "boots_station": [
+   2.23,
+   0.0,
+   8.73
+  ],
+  "em_screen_suit_1": [
+   -2.2,
+   2.45,
+   8.2
+  ],
+  "em_screen_suit_2": [
+   -2.2,
+   2.45,
+   8.2
+  ],
+  "em_screen_suit_3": [
+   -2.2,
+   2.45,
+   8.2
+  ],
+  "em_screen_suit_4": [
+   -2.2,
+   2.45,
+   8.2
+  ],
+  "em_screen_suit_5": [
+   -2.2,
+   2.45,
+   8.2
+  ],
+  "em_screen_suit_6": [
+   -2.2,
+   2.45,
+   8.2
+  ],
+  "em_screen_clock": [
+   2.5,
+   1.8,
+   4.9
+  ],
+  "em_screen_intercom": [
+   2.5,
+   1.45,
+   5.55
+  ],
+  "mug_steam": [
+   2.17,
+   0.594,
+   7.47
+  ],
+  "em_screen_tablet": [
+   2.23,
+   0.5,
+   8.66
+  ],
+  "em_led_green": [
+   2.5,
+   1.42,
+   8.6
+  ],
+  "col_clock_mission": [
+   2.5,
+   1.8,
+   4.9
+  ],
+  "col_intercom_bay": [
+   2.5,
+   1.45,
+   5.55
+  ],
+  "col_medkit_blue": [
+   2.5,
+   1.45,
+   6.0
+  ],
+  "col_bench": [
+   2.5,
+   0.0,
+   7.8
+  ],
+  "col_charger_rack": [
+   2.5,
+   1.42,
+   8.6
+  ],
+  "col_tool_cart": [
+   2.215,
+   0.0,
+   9.47
+  ],
+  "col_locker_1": [
+   2.5,
+   0.0,
+   10.225
+  ],
+  "col_locker_2": [
+   2.5,
+   0.0,
+   10.675
+  ],
+  "col_locker_2_door": [
+   2.5,
+   0.0,
+   10.675
+  ],
+  "col_locker_3": [
+   2.5,
+   0.0,
+   11.125
+  ],
+  "col_locker_4": [
+   2.5,
+   0.0,
+   11.575
+  ],
+  "anchor_suit_frame_1": [
+   -2.05,
+   0.0,
+   5.2
+  ],
+  "anchor_suit_frame_2": [
+   -2.05,
+   0.0,
+   6.4
+  ],
+  "anchor_suit_frame_3": [
+   -2.05,
+   0.0,
+   7.6
+  ],
+  "anchor_suit_frame_4": [
+   -2.05,
+   0.0,
+   8.8
+  ],
+  "anchor_suit_frame_5": [
+   -2.05,
+   0.0,
+   10.0
+  ],
+  "anchor_suit_frame_6": [
+   -2.05,
+   0.0,
+   11.2
+  ]
+ },
+ "parents": {
+  "em_screen_suit_1": "suit_tags",
+  "em_screen_suit_2": "suit_tags",
+  "em_screen_suit_3": "suit_tags",
+  "em_screen_suit_4": "suit_tags",
+  "em_screen_suit_5": "suit_tags",
+  "em_screen_suit_6": "suit_tags",
+  "em_screen_clock": "clock_mission",
+  "em_screen_intercom": "intercom_bay",
+  "em_screen_tablet": "tablet",
+  "em_led_green": "charger_rack"
+ },
+ "anchors": {
+  "anchor_suit_frame_1": [
+   -2.05,
+   0.0,
+   5.2
+  ],
+  "anchor_suit_frame_2": [
+   -2.05,
+   0.0,
+   6.4
+  ],
+  "anchor_suit_frame_3": [
+   -2.05,
+   0.0,
+   7.6
+  ],
+  "anchor_suit_frame_4": [
+   -2.05,
+   0.0,
+   8.8
+  ],
+  "anchor_suit_frame_5": [
+   -2.05,
+   0.0,
+   10.0
+  ],
+  "anchor_suit_frame_6": [
+   -2.05,
+   0.0,
+   11.2
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -2.2068,
+   0.0,
+   4.4
+  ],
+  "max": [
+   2.5091,
+   2.6044,
+   11.8017
+  ]
+ },
+ "triangles": 79863,
+ "draw_calls": 33,
+ "materials": [
+  "asset_boots_station",
+  "asset_jacket_folded",
+  "em_led_green",
+  "em_screen_clock",
+  "em_screen_intercom",
+  "em_screen_suit_1",
+  "em_screen_suit_2",
+  "em_screen_suit_3",
+  "em_screen_suit_4",
+  "em_screen_suit_5",
+  "em_screen_suit_6",
+  "em_screen_tablet",
+  "fx_steam",
+  "glove_fabric",
+  "glove_liner",
+  "props_hard",
+  "props_soft"
+ ],
+ "frame": "TECH 4.2 interior frame, metres, +Y up",
+ "screens": {
+  "em_screen_clock": "quad 0.836 x 0.418 m, UV 0-1 (u right, v up)",
+  "em_screen_intercom": "quad 0.098 x 0.032 m",
+  "em_screen_tablet": "quad 0.238 x 0.160 m, lies flat on the bench facing up",
+  "em_screen_suit_1..6": "quads 0.224 x 0.066 m on the alcove header (x = -2.20)",
+  "em_led_green": "three LED quads in one node",
+  "mug_steam": "quad 0.10 x 0.20 m above the mug, material fx_steam (alpha 0 by default)"
+ },
+ "notes": {
+  "locker ajar": "locker_2 (DE VRIES) door is open 20 degrees (static)",
+  "note_bram": "on locker_3 door (LINDQVIST)"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "nodes": [
+  "suit_on_frame",
+  "em_suit_display",
+  "sof_frame",
+  "sof_helmet",
+  "sof_suit",
+  "frame_empty"
+ ],
+ "anchors": {},
+ "origins": {
+  "em_suit_display": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "sof_frame": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "sof_helmet": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "sof_suit": [
+   0.0,
+   0.0,
+   -0.0
+  ],
+  "frame_empty": [
+   1.5,
+   0.0,
+   -0.0
+  ]
+ },
+ "clips": [],
+ "bounds": {
+  "min": [
+   -0.485,
+   0.0,
+   -0.0
+  ],
+  "max": [
+   1.985,
+   2.2746,
+   0.815
+  ]
+ },
+ "triangles": 44504,
+ "materials": [
+  "em_suit_display",
+  "frame_orange",
+  "frame_tread",
+  "frame_grey_steel",
+  "frame_dark_polymer",
+  "frame_ink",
+  "frame_label_white",
+  "em_frame_light",
+  "em_suit_lamp",
+  "helmet_shell",
+  "visor_gold",
+  "suit_mk9",
+  "suit_interior"
+ ],
+ "units": "metres",
+ "up": "+Y",
+ "footprint_m": {
+  "width": 0.97,
+  "depth": 0.815,
+  "height": 2.3
+ },
+ "notes": "suit_on_frame = root at the floor, centre of the frame's back edge, suit faces +Z. frame_empty = the same frame mesh (instanced) 1.5 m to +X without suit/helmet. Emissive: em_frame_light (two strip lights on the front uprights), em_suit_display (chest display quad).",
+ "source": "frame: Blender Python; suit: tripo3d/h3.1/multiview-to-3d from refs/suit_parts/suit_{front_clean,left,back,right}.png; helmet: suit_helmet.glb decimated"
+}

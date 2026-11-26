@@ -1,0 +1,220 @@
+{
+ "name": "karl_suit",
+ "nodes": [
+  "karl_suit",
+  "karl_suit_mesh",
+  "root",
+  "hips",
+  "spine",
+  "chest",
+  "neck",
+  "head",
+  "shoulder_L",
+  "upper_arm_L",
+  "forearm_L",
+  "hand_L",
+  "thumb_01_L",
+  "thumb_02_L",
+  "thumb_03_L",
+  "index_01_L",
+  "index_02_L",
+  "index_03_L",
+  "middle_01_L",
+  "middle_02_L",
+  "middle_03_L",
+  "ring_01_L",
+  "ring_02_L",
+  "ring_03_L",
+  "pinky_01_L",
+  "pinky_02_L",
+  "pinky_03_L",
+  "shoulder_R",
+  "upper_arm_R",
+  "forearm_R",
+  "hand_R",
+  "thumb_01_R",
+  "thumb_02_R",
+  "thumb_03_R",
+  "index_01_R",
+  "index_02_R",
+  "index_03_R",
+  "middle_01_R",
+  "middle_02_R",
+  "middle_03_R",
+  "ring_01_R",
+  "ring_02_R",
+  "ring_03_R",
+  "pinky_01_R",
+  "pinky_02_R",
+  "pinky_03_R",
+  "thigh_L",
+  "shin_L",
+  "foot_L",
+  "toe_L",
+  "thigh_R",
+  "shin_R",
+  "foot_R",
+  "toe_R",
+  "anchor_eye",
+  "anchor_grip_L",
+  "anchor_grip_R",
+  "anchor_tether"
+ ],
+ "bones": [
+  "root",
+  "hips",
+  "spine",
+  "chest",
+  "neck",
+  "head",
+  "shoulder_L",
+  "upper_arm_L",
+  "forearm_L",
+  "hand_L",
+  "thumb_01_L",
+  "thumb_02_L",
+  "thumb_03_L",
+  "index_01_L",
+  "index_02_L",
+  "index_03_L",
+  "middle_01_L",
+  "middle_02_L",
+  "middle_03_L",
+  "ring_01_L",
+  "ring_02_L",
+  "ring_03_L",
+  "pinky_01_L",
+  "pinky_02_L",
+  "pinky_03_L",
+  "shoulder_R",
+  "upper_arm_R",
+  "forearm_R",
+  "hand_R",
+  "thumb_01_R",
+  "thumb_02_R",
+  "thumb_03_R",
+  "index_01_R",
+  "index_02_R",
+  "index_03_R",
+  "middle_01_R",
+  "middle_02_R",
+  "middle_03_R",
+  "ring_01_R",
+  "ring_02_R",
+  "ring_03_R",
+  "pinky_01_R",
+  "pinky_02_R",
+  "pinky_03_R",
+  "thigh_L",
+  "shin_L",
+  "foot_L",
+  "toe_L",
+  "thigh_R",
+  "shin_R",
+  "foot_R",
+  "toe_R"
+ ],
+ "anchors": {
+  "anchor_eye": [
+   0.0,
+   1.78,
+   0.06
+  ],
+  "anchor_grip_L": [
+   0.479,
+   0.9705,
+   -0.0419
+  ],
+  "anchor_grip_R": [
+   -0.4825,
+   0.9742,
+   -0.0033
+  ],
+  "anchor_tether": [
+   0.0,
+   1.135,
+   -0.215
+  ]
+ },
+ "anchor_parents": {
+  "anchor_eye": "head",
+  "anchor_grip_L": "hand_L",
+  "anchor_grip_R": "hand_R",
+  "anchor_tether": "hips"
+ },
+ "clips": [
+  {
+   "name": "idle_boots",
+   "duration": 4.0,
+   "loop": true
+  },
+  {
+   "name": "walk_boots",
+   "duration": 1.6,
+   "loop": true
+  },
+  {
+   "name": "work_reach",
+   "duration": 4.0,
+   "loop": true
+  },
+  {
+   "name": "float_idle",
+   "duration": 5.0,
+   "loop": true
+  },
+  {
+   "name": "tumble_limp",
+   "duration": 6.0,
+   "loop": true
+  },
+  {
+   "name": "thrown",
+   "duration": 1.6,
+   "loop": false
+  },
+  {
+   "name": "haul",
+   "duration": 2.4,
+   "loop": true
+  },
+  {
+   "name": "reach_grab",
+   "duration": 1.5,
+   "loop": false
+  },
+  {
+   "name": "kneel_drop",
+   "duration": 1.2,
+   "loop": false
+  }
+ ],
+ "bounds": {
+  "min": [
+   -0.5871,
+   0.0,
+   -0.3355
+  ],
+  "max": [
+   0.5808,
+   1.95,
+   0.2387
+  ]
+ },
+ "triangles": 54134,
+ "materials": [
+  "suit_body",
+  "visor_gold",
+  "em_suit_lamp",
+  "em_suit_display",
+  "em_suit_heel"
+ ],
+ "skeleton": {
+  "deform_bones": 52,
+  "max_influences": 4,
+  "rest_pose": "A-pose",
+  "facing": "+Z",
+  "up": "+Y"
+ },
+ "fps": 30
+}
